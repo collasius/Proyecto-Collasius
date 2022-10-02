@@ -54,6 +54,10 @@ body {
     transform: scale(1.1);
 }
 
+.contenedor-items li:active{
+    transform: scale(1);
+}
+
 .item {
     text-decoration: none;
     color: #e8e8e8e0;
@@ -64,7 +68,10 @@ body {
     filter: brightness(70%);
     color: white;
 }
-
+.item:active{
+    filter: brightness(60%);
+    color: rgb(211, 211, 211);
+}
 
 /* ESTILADO MAIN INICIO*/
 
