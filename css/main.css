@@ -81,6 +81,7 @@ main {
 
 .contenido-principal {
     margin: 200px 0px 0px 0px;
+    background-color: #dfdfdf;
 
 }
 
@@ -588,11 +589,10 @@ main {
 
 .seccion-principal-2 {
     background-color: #dfdfdf;
-    padding: 5px 0px;
 }
 
 .contenedor-contenido-seccion-diseno{
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .diseno-1-1 {
@@ -656,7 +656,8 @@ main {
 .contenedor-contenido-seccion-diseno h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    margin: 20px;
+    padding: 10px;
+    margin: 0;
     font-size: 40px;
     text-align: center;
     
