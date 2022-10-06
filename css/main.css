@@ -28,6 +28,7 @@ body {
     background: #000000bb;
     min-height: 180px;
     backdrop-filter: saturate(200%) blur(20px);
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15px;
