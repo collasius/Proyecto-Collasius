@@ -495,28 +495,19 @@ main {
 
 .innovacion-cion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
     align-content: center;
     overflow: hidden;
-    min-width: 320px;
-    max-width: 425px;
+    width: 320px;
     height: 420px;
 }
 
-.contenedor-imagen-cion{
-    overflow: hidden;
-    width: 320px;
-    z-index: 4;
-    position: relative;
-}
-
-.innovacion-cion .contenedor-imagen-cion img {
-    height: 650px;
+.cion-innovacion{
     width: 650px;
-
+    z-index: 5;
+    position: relative;
 }
 
 .fondo-animado-cion {
@@ -596,7 +587,7 @@ main {
     width: 320px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
-    transform: translateY(110px);
+    transform: translateY(80px);
 }
 
 .seccion-principal-2 {
