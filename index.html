@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Mi estilado -->
     <link rel="stylesheet" href="css/main.css">
     <title>Meli</title>
     <link rel="shortcut icon" href="resources/z-logo-encabezado.ico">
@@ -17,13 +21,15 @@
 
     <header>
         <nav class="menu-principal">
+            <input type="checkbox" class="nav-desplegable" id="check">
+            <label for="check" class="boton-check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a class="item-inicio item" href="index.html">
+                <img class="item" src="resources/z-logo-inicio.png" alt="logo-inicio" height="30px">
+            </a>
             <div class="contenedor-nav">
                 <ul class="contenedor-items">
-                    <li class="item-inicio">
-                        <a href="index.html">
-                            <img class="item" src="resources/z-logo-inicio.png" alt="logo-inicio" height="30px">
-                        </a>
-                    </li>
                     <li class="item-productos">
                        <a class="item" href="pages/productos.html">Productos</a>
                     </li>
