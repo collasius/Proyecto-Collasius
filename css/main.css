@@ -48,7 +48,7 @@ body {
     margin-top: 50px;
     transition-property: all; 
     transition-duration: 0.5s;
-    transform: translatex(-1000px);
+    /* transform: translatex(-1000px); */
 }
 
 .boton-check{
@@ -69,7 +69,7 @@ body {
     }
 
 .contenedor-items {
-    line-height: 50px;
+    padding-top:20px;
     margin: 0;
     list-style-type: none;
     display: flex;
@@ -86,14 +86,24 @@ body {
     position: absolute;
     padding: 0;
     margin: 0;
-    line-height: 45px;
+    line-height: 50px;
+    left: 50%;
+    margin-left: -15px;
 }
 
 .contenedor-items li{
-    margin: 0px 0px;
+    margin: 20px 0px;
     transition-property: all; 
     transition-duration: 0.1s;
+    border-top: solid 1px rgba(255, 255, 255, 0.247);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.247);
 }
+
+.contenedor-items li a{
+    margin: 10px 80px;
+}
+
+
 .contenedor-items li:hover{
     transform: scale(1.1);
 }
@@ -111,8 +121,10 @@ body {
 .item:hover{
     filter: brightness(70%);
     color: white;
+    transform: scale(1.1);
 }
 .item:active{
+    transform: scale(0.99);
     filter: brightness(60%);
     color: rgb(211, 211, 211);
 }
@@ -986,6 +998,9 @@ main {
 
 
 @media (min-width:450px ){
+    .boton-check{
+        display: none;
+    }
     .item-inicio {
         padding: 10px 20px;
     }
@@ -1010,9 +1025,6 @@ main {
 /* RESPONSIVE LAPTOP */
 
 @media (min-width:768px ){
-    .boton-check{
-        display: none;
-    }
     .contenedor-items{
         padding-left: 200px;
         line-height: 50px;
