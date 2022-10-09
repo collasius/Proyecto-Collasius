@@ -48,7 +48,7 @@ body {
     margin-top: 50px;
     transition-property: all; 
     transition-duration: 0.5s;
-    /* transform: translatex(-1000px); */
+    transform: translatex(-1000px);
 }
 
 .boton-check{
@@ -86,7 +86,7 @@ body {
     position: absolute;
     padding: 0;
     margin: 0;
-    line-height: 50px;
+    line-height: 45px;
     left: 50%;
     margin-left: -15px;
 }
@@ -740,7 +740,7 @@ main {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 12px;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 5px 10px 5px;
 }
 
 .contenedor-foot{
@@ -748,7 +748,7 @@ main {
 }
 
 .contenedor-items-foot{
-    padding: 10px 20px;
+    padding: 10px 0px;
     margin: 0;
     list-style-type: none;
     display: flex;
@@ -761,8 +761,8 @@ main {
     text-decoration: none;
     color: #848484;
     border-color: #848484;
-    padding: 20px 10px;
-    font-size: 15px;
+    padding: 20px 5px;
+    font-size: 12px;
 }
 
 .texto-foot{
@@ -773,7 +773,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: #3c3c3c;
+    color: #7d7d7d;
     align-content: baseline;
 }
 
@@ -994,9 +994,20 @@ main {
     padding: 40px 100px;
 }
 
-/* RESOPNSIVE TABLET */
+/* RESOPNSIVE SMARTPHONE MEDIO */
 
+@media (min-width:390px){
+    .item-foot{
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+    .texto-foot{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+}
 
+/* RESPONSIVE TABLET */
 @media (min-width:450px ){
     .boton-check{
         display: none;
