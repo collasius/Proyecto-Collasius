@@ -996,7 +996,8 @@ main {
 
 /* RESOPNSIVE SMARTPHONE MEDIO */
 
-@media (min-width:390px){
+@media (min-width:420px){
+    /* foot */
     .item-foot{
         font-size: 15px;
         padding: 20px 10px;
@@ -1005,17 +1006,27 @@ main {
         padding-top: 10px;
         font-size: 10px;
     }
+    .pie-pagina{
+        padding: 30px 20px 10px 20px;
+    }
+    .contenedor-items-foot{
+        justify-content: space-around;
+    }
 }
 
 /* RESPONSIVE TABLET */
-@media (min-width:450px ){
+/* nav */
+@media (min-width:700px ){
     .boton-check{
         display: none;
     }
     .item-inicio {
-        padding: 10px 20px;
+        padding-left: 40px;
+        left: 0;
     }
     .contenedor-items{
+        line-height: 50px;
+        padding-top: 0;
         padding-left: 50px;
         display: flex;
         flex-direction: row;
@@ -1027,15 +1038,34 @@ main {
         transform: translatex(0px);
         width:100%;
         height: 50px;
+        margin: 0;
         background: none;
         backdrop-filter: none;
         -webkit-backdrop-filter: none;
     }
+    .contenedor-items li{
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .contenedor-items li a{
+        margin: 0;
+        padding: 0;
+    }
+    /* foot */
+    .item-foot{
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+    .texto-foot{
+        padding-top: 10px;
+        font-size: 14px;
+    }
 }
 
 /* RESPONSIVE LAPTOP */
-
-@media (min-width:768px ){
+/* nav */
+@media (min-width:800px ){
     .contenedor-items{
         padding-left: 200px;
         line-height: 50px;
@@ -1050,6 +1080,6 @@ main {
     }
     .item-inicio{
         position: absolute;
-        padding: 10px 80px;
+        padding: 0px 100px;
     }
 }
