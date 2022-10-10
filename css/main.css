@@ -872,14 +872,14 @@ main {
 }
 
 .contenedor-contenido-nosotros{
-    margin: 50px 80px;
-    padding-top: 5px;
+    margin: 50px 10px;
 }
 
 .contenedor-contenido-nosotros h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 25px;
+    text-align: center;
 }
 
 .contenedor-contenido-nosotros p{
@@ -889,14 +889,6 @@ main {
     padding: 0px 20px;
 }
 
-.imagen-historia {
-    text-align: center;
-}
-
-.imagen-historia img{
-    max-width: 700px;
-    margin: 20px;
-}
 .contenido-nosotros {
     padding: 20px 0px;
 }
@@ -1050,6 +1042,12 @@ main {
         margin: 0;
         padding: 0;
     }
+
+    /* nosotros */
+    .contenedor-contenido-nosotros{
+        padding: 0px 10px;
+    }
+
     /* foot */
     .item-foot{
         font-size: 18px;
@@ -1079,5 +1077,10 @@ main {
     .item-inicio{
         position: absolute;
         padding: 0px 100px;
+    }
+
+    /* nosotros */
+    .contenedor-contenido-nosotros{
+        padding: 0px 40px;
     }
 }
