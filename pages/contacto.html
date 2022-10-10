@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Mi estilado -->
     <link rel="stylesheet" href="../css/main.css">
     <title>Meli - Contacto</title>
-    <link rel="shortcut icon" href="../resources/z-logo-encabezado.ico">
+    <link rel="shortcut icon" href="resources/z-logo-encabezado.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <h2 class="oculto" id="nav-contacto">Contacto</h2>
 
     <header>
         <nav class="menu-principal">
+            <input type="checkbox" class="nav-desplegable" id="check">
+            <label for="check" class="boton-check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a class="item-inicio item" href="../index.html">
+                <img class="item" src="../resources/z-logo-inicio.png" alt="logo-inicio" height="30px">
+            </a>
             <div class="contenedor-nav">
                 <ul class="contenedor-items">
-                    <li class="item-inicio">
-                        <a href="../index.html">
-                            <img src="../resources/z-logo-inicio.png" alt="logo-inicio" height="40px">
-                        </a>
-                    </li>
                     <li class="item-productos">
-                        <a class="item" href="../pages/productos.html">Productos</a>
+                       <a class="item" href="productos.html">Productos</a>
                     </li>
                     <li class="item-nosotros">
-                        <a class="item" href="../pages/nosotros.html">Nosotros</a>
+                        <a class="item" href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="item-contacto">
-                        <a class="item" href="../pages/contacto.html">Contacto</a>
+                        <a class="item" href="contacto.html">Contacto</a>
                     </li>
                     <li class="item-soporte">
-                        <a class="item" href="../pages/soporte.html">Soporte</a>
+                        <a class="item" href="soporte.html">Soporte</a>
                     </li>
                 </ul>
             </div>
@@ -125,5 +131,7 @@
             </div>
         </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -754,7 +754,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .item-foot{
@@ -1009,9 +1009,6 @@ main {
     .pie-pagina{
         padding: 30px 20px 10px 20px;
     }
-    .contenedor-items-foot{
-        justify-content: space-around;
-    }
 }
 
 /* RESPONSIVE TABLET */
@@ -1023,6 +1020,7 @@ main {
     .item-inicio {
         padding-left: 40px;
         left: 0;
+        z-index: 12;
     }
     .contenedor-items{
         line-height: 50px;
