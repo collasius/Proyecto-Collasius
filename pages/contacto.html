@@ -50,8 +50,8 @@
     <main class="contenido-principal-contacto">
         <section class="contenedor-contenido-mapa">
             <h3>Donde Encontrarnos</h3>
-            <div class="contenido-mapa">
-                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=puerto%20madero%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <div class="contenedor-mapa">
+                <iframe class="contenido-mapa" id="gmap_canvas" src="https://maps.google.com/maps?q=puerto%20madero%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
             <div class="texto-mapa">
                 <p>Podes encontrar nuestras oficinas centrales estan ubicadas en xxxxxxxxxxx 3er piso</p>
@@ -82,21 +82,33 @@
         </section>
         <section class="contenedor-consultas">
             <div class="contenido-consultas">
-                <h3>Dejanos tu consulta</h3>
-                <div class="formularios">
-                    <form action="">
-                        <div>
-                            <label for="">Email</label>
-                            <input type="email" value="">
-                            <label for="">Celular</label>
-                            <input type="number" value="">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Dejanos tu consulta</button>
+    
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title fs-5" id="exampleModalLabel">Nuevo mensaje</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Ingrese su correo:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Mensaje:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
                         </div>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <div>
-                            <input type="submit" value="Enviar">
-                            <input type="reset" name="" id="" value="Limpiar">
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar mensaje</button>
+                            </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>

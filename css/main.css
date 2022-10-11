@@ -923,8 +923,16 @@ main {
     background-color: #e0e4ff;
     padding: 10px;
 }
+
+.contenedor-mapa{
+    height: 400px;
+}
+
 .contenido-mapa{
-    margin-bottom: 20px;
+    padding: 5px 20px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contenedor-redes {
@@ -1051,6 +1059,11 @@ main {
         font-size: 15px;
     }
 
+    /* contacto */
+    .contenido-mapa{
+        padding: 5px 50px;
+    }
+
     /* foot */
     .item-foot{
         font-size: 18px;
@@ -1089,4 +1102,9 @@ main {
     .contenido-nosotros h3 {
         text-align: left;
     }
+
+    /* contacto */
+    .contenido-mapa{
+        padding: 5px 100px;
+   }
 }
