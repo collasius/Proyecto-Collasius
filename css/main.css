@@ -657,8 +657,7 @@ main {
 .diseno-1-1 {
     background-color: rgb(255, 255, 255);
     min-width: 320px;
-    max-width: 425px;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     text-align: center;
 }
@@ -686,8 +685,11 @@ main {
     justify-content: space-around;
 }
 
-.contenedor-melphones img{
+.diseno-melphone {
     width: 70px;
+}
+.melphone-tablet{
+    display: none;
 }
 .diseno-melphone-negro{
     z-index: 3;
@@ -1025,6 +1027,29 @@ main {
     .contenedor-items li a{
         margin: 0;
         padding: 0;
+    }
+
+    /* inicio */
+    .diseno-1-1{
+        max-width: none;
+    }
+    .contenedor-melphones{
+        width: auto;
+    }
+    .diseno-melphone{
+        width: 60px;
+    }
+    .melphone-tablet{
+        display: block;
+        padding-top: 40px;
+        width: 150px;
+        height: 240px;
+    }
+    .diseno-melphone-negro{
+        transform: none;
+    }
+    .diseno-melphone-blanco{
+        transform: none;
     }
 
     /* nosotros */
