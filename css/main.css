@@ -885,7 +885,7 @@ main {
 .contenedor-contenido-nosotros p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 12px;
     padding: 0px 20px;
 }
 
@@ -1047,6 +1047,9 @@ main {
     .contenedor-contenido-nosotros{
         padding: 0px 10px;
     }
+    .contenedor-contenido-nosotros p{
+        font-size: 15px;
+    }
 
     /* foot */
     .item-foot{
@@ -1082,5 +1085,8 @@ main {
     /* nosotros */
     .contenedor-contenido-nosotros{
         padding: 0px 40px;
+    }
+    .contenido-nosotros h3 {
+        text-align: left;
     }
 }
