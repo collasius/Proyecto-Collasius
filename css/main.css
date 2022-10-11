@@ -804,23 +804,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-}
-
-.contenido-seccion-productos-2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.contenido-seccion-productos-3{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .contenedor-contenido-seccion-producto {
@@ -929,6 +913,7 @@ main {
 }
 
 .contenido-mapa{
+    z-index: 1;
     padding: 5px 20px;
     height: 100%;
     width: 100%;
@@ -950,33 +935,9 @@ main {
 
 .contenedor-consultas{
     text-align: center;
-    margin-top: 100px;
-}
-
-.formularios form {
+    margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.formularios form div {
-    margin: 15px 0px;
-}
-
-.formularios form input {
-    border: none;
-    background-color: #b7b7b7;
-}
-.formularios form textarea {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    padding: 10px 10px;
-    margin: 0px 100px;
-    background-color: #ddddddc3;
-    border: none;
-    height: auto;
 }
 
 /* Estilado Soporte */
