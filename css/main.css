@@ -698,7 +698,6 @@ main {
   max-width: 200px;
   margin: 10px 10px; }
 
-/* ESTILADO FOOTER */
 .pie-pagina {
   background-color: #efefef;
   font-family: 'Roboto', sans-serif;
@@ -737,7 +736,6 @@ main {
   color: #7d7d7d;
   align-content: baseline; }
 
-/* Estilado Main Productos */
 .contenido-principal-productos {
   margin: 50px 0px 0px 0px; }
 

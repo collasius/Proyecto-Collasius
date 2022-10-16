@@ -629,50 +629,10 @@ main {
     max-width: 200px;
     margin: 10px 10px;
 }
-/* ESTILADO FOOTER */
-.pie-pagina {
-    background-color: #efefef;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    padding: 30px 5px 10px 5px;
-}
 
-.contenedor-foot{
-    padding: 10px 0px;
-}
+@import "_footer-estilado";
 
-.contenedor-items-foot{
-    padding: 10px 0px;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.item-foot{
-    text-decoration: none;
-    color: #848484;
-    border-color: #848484;
-    padding: 20px 5px;
-    font-size: 12px;
-}
-
-.texto-foot{
-    border-top: 1px solid;
-    border-color: #cccccc;
-    font-size: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: #7d7d7d;
-    align-content: baseline;
-}
-
-/* Estilado Main Productos */
+// /* Estilado Main Productos */
 
 
 .contenido-principal-productos {
