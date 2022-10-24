@@ -1,0 +1,12 @@
+// hover nav
+.boton-check:hover {
+    transform: scale(1.1);
+}
+.contenedor-items li:hover{
+    transform: scale(1.1);
+}
+.item:hover{
+    filter: brightness(70%);
+    color: white;
+    transform: scale(1.1);
+}

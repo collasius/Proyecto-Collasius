@@ -13,7 +13,6 @@ body {
   border: 0;
   margin: 0; }
 
-/* ESTILADO NAV */
 .menu-principal {
   position: fixed;
   z-index: 12;
@@ -70,6 +69,11 @@ body {
       justify-content: flex-start;
       align-items: center;
       padding-left: 0; }
+      .menu-principal .contenedor-nav .contenedor-items .item {
+        text-decoration: none;
+        color: #e8e8e8e0;
+        transition-property: all;
+        transition-duration: 0.1s; }
       .menu-principal .contenedor-nav .contenedor-items li {
         margin: 20px 0px;
         transition-property: all;
@@ -78,40 +82,6 @@ body {
         border-bottom: solid 1px rgba(255, 255, 255, 0.247); }
         .menu-principal .contenedor-nav .contenedor-items li a {
           margin: 10px 80px; }
-
-i:hover {
-  transform: scale(1.1); }
-
-i:active {
-  transform: scale(0.9); }
-
-#check:checked ~ .boton-check i {
-  transform: rotateZ(90deg); }
-
-#check:checked ~ .contenedor-nav {
-  transform: translatex(0px); }
-
-.contenedor-items li:hover {
-  transform: scale(1.1); }
-
-.contenedor-items li:active {
-  transform: scale(0.99); }
-
-.item {
-  text-decoration: none;
-  color: #e8e8e8e0;
-  transition-property: all;
-  transition-duration: 0.1s; }
-
-.item:hover {
-  filter: brightness(70%);
-  color: white;
-  transform: scale(1.1); }
-
-.item:active {
-  transform: scale(0.99);
-  filter: brightness(60%);
-  color: lightgray; }
 
 main {
   min-height: 83vh; }
@@ -1017,3 +987,31 @@ main {
   .contenido-principal-soporte h3 {
     text-align: left;
     font-size: 22px; } }
+
+#check:checked ~ .boton-check i {
+  transform: rotateZ(90deg); }
+
+#check:checked ~ .contenedor-nav {
+  transform: translatex(0px); }
+
+.boton-check:hover {
+  transform: scale(1.1); }
+
+.contenedor-items li:hover {
+  transform: scale(1.1); }
+
+.item:hover {
+  filter: brightness(70%);
+  color: white;
+  transform: scale(1.1); }
+
+.boton-check:active {
+  transform: scale(0.9); }
+
+.contenedor-items li:active {
+  transform: scale(0.99); }
+
+.item:active {
+  transform: scale(0.99);
+  filter: brightness(60%);
+  color: lightgray; }

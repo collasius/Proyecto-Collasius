@@ -1,0 +1,12 @@
+// active nav
+.boton-check:active {
+    transform: scale(0.9);
+}
+.contenedor-items li:active{
+    transform: scale(0.99);
+}
+.item:active{
+    transform: scale(0.99);
+    filter: brightness(60%);
+    color: rgb(211, 211, 211);
+}

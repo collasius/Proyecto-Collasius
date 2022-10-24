@@ -1,0 +1,8 @@
+// despliegue del nav
+#check:checked ~ .boton-check i {
+    transform: rotateZ(90deg);
+}
+
+#check:checked ~ .contenedor-nav{
+    transform: translatex(0px);
+    }
