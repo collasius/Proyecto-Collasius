@@ -692,13 +692,13 @@ main {
 /* RESPONSIVE TABLET */
 /* nav */
 @media (min-width: 700px) {
-  .boton-check {
+  .menu-principal .boton-check {
     display: none; }
-  .item-inicio {
+  .menu-principal .item-inicio {
     padding-left: 40px;
     left: 0;
     z-index: 12; }
-  .contenedor-nav {
+  .menu-principal .contenedor-nav {
     transform: translatex(0px);
     width: 100%;
     height: 50px;
@@ -706,7 +706,7 @@ main {
     background: none;
     backdrop-filter: none;
     -webkit-backdrop-filter: none; }
-    .contenedor-nav .contenedor-items {
+    .menu-principal .contenedor-nav .contenedor-items {
       line-height: 50px;
       padding-top: 0;
       padding-left: 50px;
@@ -715,11 +715,11 @@ main {
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
-      .contenedor-nav .contenedor-items li {
+      .menu-principal .contenedor-nav .contenedor-items li {
         margin: 0;
         padding: 0;
         border: none; }
-        .contenedor-nav .contenedor-items li a {
+        .menu-principal .contenedor-nav .contenedor-items li a {
           margin: 0;
           padding: 0; }
   /* inicio */

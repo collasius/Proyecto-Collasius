@@ -330,7 +330,7 @@ main {
 /* RESPONSIVE TABLET */
 /* nav */
 @media (min-width:700px ) {
-
+.menu-principal {
     .boton-check{
         display: none;
     }
@@ -370,6 +370,7 @@ main {
             }
         }
     }
+}
 
     /* inicio */
     .diseno-1-1{
