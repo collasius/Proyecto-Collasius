@@ -159,12 +159,6 @@ main {
 .fondo-animado-in {
   animation-name: fondo-in; }
 
-@keyframes fondo-in {
-  0% {
-    filter: saturate(0%); }
-  100% {
-    filter: saturate(100%); } }
-
 .blur-animado-in {
   height: 100px;
   width: 300px;
@@ -179,10 +173,6 @@ main {
 
 .blur-animado-in {
   animation-name: movimiento-blur-in; }
-
-@keyframes movimiento-blur-in {
-  0% {
-    transform: scaleX(0); } }
 
 .texto-in {
   position: absolute;
@@ -239,130 +229,6 @@ main {
 .no-seg {
   animation-name: segundero; }
 
-@keyframes segundero {
-  0% {
-    transform: rotateZ(0deg); }
-  1.67% {
-    transform: rotateZ(6deg); }
-  3.34% {
-    transform: rotateZ(12deg); }
-  5.01% {
-    transform: rotateZ(18deg); }
-  6.68% {
-    transform: rotateZ(24deg); }
-  8.35% {
-    transform: rotateZ(30deg); }
-  10.02% {
-    transform: rotateZ(36deg); }
-  11.69% {
-    transform: rotateZ(42deg); }
-  13.36% {
-    transform: rotateZ(48deg); }
-  15.03% {
-    transform: rotateZ(54deg); }
-  16.70% {
-    transform: rotateZ(60deg); }
-  18.37% {
-    transform: rotateZ(66deg); }
-  20.04% {
-    transform: rotateZ(72deg); }
-  21.71% {
-    transform: rotateZ(78deg); }
-  23.38% {
-    transform: rotateZ(84deg); }
-  25.05% {
-    transform: rotateZ(90deg); }
-  26.72% {
-    transform: rotateZ(96deg); }
-  28.39% {
-    transform: rotateZ(102deg); }
-  30.06% {
-    transform: rotateZ(108deg); }
-  31.73% {
-    transform: rotateZ(114deg); }
-  33.4% {
-    transform: rotateZ(120deg); }
-  35.07% {
-    transform: rotateZ(126deg); }
-  36.74% {
-    transform: rotateZ(132deg); }
-  38.41% {
-    transform: rotateZ(138deg); }
-  40.08% {
-    transform: rotateZ(144deg); }
-  41.75% {
-    transform: rotateZ(150deg); }
-  43.42% {
-    transform: rotateZ(156deg); }
-  45.09% {
-    transform: rotateZ(162deg); }
-  46.76% {
-    transform: rotateZ(168deg); }
-  48.43% {
-    transform: rotateZ(174deg); }
-  50.01% {
-    transform: rotateZ(180deg); }
-  51.77% {
-    transform: rotateZ(186deg); }
-  53.44% {
-    transform: rotateZ(192deg); }
-  55.11% {
-    transform: rotateZ(198deg); }
-  56.78% {
-    transform: rotateZ(204deg); }
-  58.45% {
-    transform: rotateZ(210deg); }
-  60.12% {
-    transform: rotateZ(216deg); }
-  61.79% {
-    transform: rotateZ(222deg); }
-  63.46% {
-    transform: rotateZ(228deg); }
-  65.13% {
-    transform: rotateZ(234deg); }
-  66.8% {
-    transform: rotateZ(240deg); }
-  68.47% {
-    transform: rotateZ(246deg); }
-  70.14% {
-    transform: rotateZ(252deg); }
-  71.81% {
-    transform: rotateZ(258deg); }
-  73.48% {
-    transform: rotateZ(264deg); }
-  75.15% {
-    transform: rotateZ(270deg); }
-  76.82% {
-    transform: rotateZ(276deg); }
-  78.49% {
-    transform: rotateZ(282deg); }
-  80.16% {
-    transform: rotateZ(288deg); }
-  81.83% {
-    transform: rotateZ(294deg); }
-  83.5% {
-    transform: rotateZ(300deg); }
-  85.17% {
-    transform: rotateZ(306deg); }
-  86.84% {
-    transform: rotateZ(312deg); }
-  88.51% {
-    transform: rotateZ(318deg); }
-  90.18% {
-    transform: rotateZ(324deg); }
-  91.85% {
-    transform: rotateZ(330deg); }
-  93.52% {
-    transform: rotateZ(336deg); }
-  95.19% {
-    transform: rotateZ(342deg); }
-  96.86% {
-    transform: rotateZ(348deg); }
-  98.53% {
-    transform: rotateZ(354deg); }
-  100% {
-    transform: rotateZ(360deg); } }
-
 .fondo-animado-no {
   position: absolute;
   z-index: 1;
@@ -378,12 +244,6 @@ main {
 .fondo-animado-no {
   animation-name: fondo-no; }
 
-@keyframes fondo-no {
-  0% {
-    filter: saturate(0%); }
-  100% {
-    filter: saturate(100%); } }
-
 .blur-animado-no {
   height: 200px;
   width: 200px;
@@ -398,10 +258,6 @@ main {
 
 .blur-animado-no {
   animation-name: movimiento-blur-no; }
-
-@keyframes movimiento-blur-no {
-  0% {
-    transform: scale(1.5); } }
 
 .texto-no {
   position: absolute;
@@ -436,12 +292,6 @@ main {
 .innovacion-va {
   animation-name: va-innovacion-op; }
 
-@keyframes va-innovacion-op {
-  0% {
-    filter: opacity(30%); }
-  100% {
-    filter: opacity(100%); } }
-
 .va-innovacion {
   z-index: 4;
   position: relative;
@@ -464,12 +314,6 @@ main {
 .fondo-animado-va {
   animation-name: fondo-va; }
 
-@keyframes fondo-va {
-  0% {
-    filter: saturate(0%); }
-  100% {
-    filter: saturate(100%); } }
-
 .blur-animado-va {
   height: 300px;
   width: 100px;
@@ -484,10 +328,6 @@ main {
 
 .blur-animado-va {
   animation-name: movimiento-blur-va; }
-
-@keyframes movimiento-blur-va {
-  0% {
-    transform: scaleX(0); } }
 
 .texto-va {
   position: absolute;
@@ -537,12 +377,6 @@ main {
 .fondo-animado-cion {
   animation-name: fondo-cion; }
 
-@keyframes fondo-cion {
-  0% {
-    filter: saturate(0%); }
-  100% {
-    filter: saturate(100%); } }
-
 .blur-animado-cion {
   height: 80px;
   width: 320px;
@@ -558,14 +392,6 @@ main {
 
 .blur-animado-cion {
   animation-name: movimiento-blur-cion; }
-
-@keyframes movimiento-blur-cion {
-  0% {
-    transform: scaleX(0) translateY(-80px);
-    z-index: 3; }
-  100% {
-    transform: scaleX(1) translateY(-80px);
-    z-index: 3; } }
 
 .contenedor-texto {
   position: absolute;
@@ -609,12 +435,6 @@ main {
   font-size: 18px;
   transition-property: all;
   transition-duration: 0.1s; }
-
-.link-saber-mas:hover {
-  text-decoration: underline; }
-
-.link-saber-mas:active {
-  font-size: 17px; }
 
 .contenedor-melphones {
   display: flex;
@@ -675,37 +495,33 @@ main {
   font-weight: 300;
   font-size: 12px;
   padding: 30px 5px 10px 5px; }
-
-.contenedor-foot {
-  padding: 10px 0px; }
-
-.contenedor-items-foot {
-  padding: 10px 0px;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center; }
-
-.item-foot {
-  text-decoration: none;
-  color: #848484;
-  border-color: #848484;
-  padding: 20px 5px;
-  font-size: 12px; }
-
-.texto-foot {
-  border-top: 1px solid;
-  border-color: #cccccc;
-  font-size: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  color: #7d7d7d;
-  align-content: baseline; }
+  .pie-pagina .contenedor-foot {
+    padding: 10px 0px; }
+    .pie-pagina .contenedor-foot .contenedor-items-foot {
+      padding: 10px 0px;
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center; }
+      .pie-pagina .contenedor-foot .contenedor-items-foot .item-foot {
+        text-decoration: none;
+        color: #848484;
+        border-color: #848484;
+        padding: 20px 5px;
+        font-size: 12px; }
+  .pie-pagina .texto-foot {
+    border-top: 1px solid;
+    border-color: #cccccc;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #7d7d7d;
+    align-content: baseline; }
 
 .contenido-principal-productos {
   margin: 50px 0px 0px 0px; }
@@ -713,7 +529,7 @@ main {
 .seccion-principal-productos {
   margin: 20px 0px;
   padding: 15px 0px;
-  background-color: #ffffff;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1005,6 +821,12 @@ main {
   color: white;
   transform: scale(1.1); }
 
+.link-saber-mas:hover {
+  text-decoration: underline; }
+
+.item-foot:hover {
+  color: black !important; }
+
 .boton-check:active {
   transform: scale(0.9); }
 
@@ -1015,3 +837,180 @@ main {
   transform: scale(0.99);
   filter: brightness(60%);
   color: lightgray; }
+
+.link-saber-mas:active {
+  font-size: 17px; }
+
+@keyframes fondo-in {
+  0% {
+    filter: saturate(0%); }
+  100% {
+    filter: saturate(100%); } }
+
+@keyframes movimiento-blur-in {
+  0% {
+    transform: scaleX(0); } }
+
+@keyframes segundero {
+  0% {
+    transform: rotateZ(0deg); }
+  1.67% {
+    transform: rotateZ(6deg); }
+  3.34% {
+    transform: rotateZ(12deg); }
+  5.01% {
+    transform: rotateZ(18deg); }
+  6.68% {
+    transform: rotateZ(24deg); }
+  8.35% {
+    transform: rotateZ(30deg); }
+  10.02% {
+    transform: rotateZ(36deg); }
+  11.69% {
+    transform: rotateZ(42deg); }
+  13.36% {
+    transform: rotateZ(48deg); }
+  15.03% {
+    transform: rotateZ(54deg); }
+  16.70% {
+    transform: rotateZ(60deg); }
+  18.37% {
+    transform: rotateZ(66deg); }
+  20.04% {
+    transform: rotateZ(72deg); }
+  21.71% {
+    transform: rotateZ(78deg); }
+  23.38% {
+    transform: rotateZ(84deg); }
+  25.05% {
+    transform: rotateZ(90deg); }
+  26.72% {
+    transform: rotateZ(96deg); }
+  28.39% {
+    transform: rotateZ(102deg); }
+  30.06% {
+    transform: rotateZ(108deg); }
+  31.73% {
+    transform: rotateZ(114deg); }
+  33.4% {
+    transform: rotateZ(120deg); }
+  35.07% {
+    transform: rotateZ(126deg); }
+  36.74% {
+    transform: rotateZ(132deg); }
+  38.41% {
+    transform: rotateZ(138deg); }
+  40.08% {
+    transform: rotateZ(144deg); }
+  41.75% {
+    transform: rotateZ(150deg); }
+  43.42% {
+    transform: rotateZ(156deg); }
+  45.09% {
+    transform: rotateZ(162deg); }
+  46.76% {
+    transform: rotateZ(168deg); }
+  48.43% {
+    transform: rotateZ(174deg); }
+  50.01% {
+    transform: rotateZ(180deg); }
+  51.77% {
+    transform: rotateZ(186deg); }
+  53.44% {
+    transform: rotateZ(192deg); }
+  55.11% {
+    transform: rotateZ(198deg); }
+  56.78% {
+    transform: rotateZ(204deg); }
+  58.45% {
+    transform: rotateZ(210deg); }
+  60.12% {
+    transform: rotateZ(216deg); }
+  61.79% {
+    transform: rotateZ(222deg); }
+  63.46% {
+    transform: rotateZ(228deg); }
+  65.13% {
+    transform: rotateZ(234deg); }
+  66.8% {
+    transform: rotateZ(240deg); }
+  68.47% {
+    transform: rotateZ(246deg); }
+  70.14% {
+    transform: rotateZ(252deg); }
+  71.81% {
+    transform: rotateZ(258deg); }
+  73.48% {
+    transform: rotateZ(264deg); }
+  75.15% {
+    transform: rotateZ(270deg); }
+  76.82% {
+    transform: rotateZ(276deg); }
+  78.49% {
+    transform: rotateZ(282deg); }
+  80.16% {
+    transform: rotateZ(288deg); }
+  81.83% {
+    transform: rotateZ(294deg); }
+  83.5% {
+    transform: rotateZ(300deg); }
+  85.17% {
+    transform: rotateZ(306deg); }
+  86.84% {
+    transform: rotateZ(312deg); }
+  88.51% {
+    transform: rotateZ(318deg); }
+  90.18% {
+    transform: rotateZ(324deg); }
+  91.85% {
+    transform: rotateZ(330deg); }
+  93.52% {
+    transform: rotateZ(336deg); }
+  95.19% {
+    transform: rotateZ(342deg); }
+  96.86% {
+    transform: rotateZ(348deg); }
+  98.53% {
+    transform: rotateZ(354deg); }
+  100% {
+    transform: rotateZ(360deg); } }
+
+@keyframes fondo-no {
+  0% {
+    filter: saturate(0%); }
+  100% {
+    filter: saturate(100%); } }
+
+@keyframes movimiento-blur-no {
+  0% {
+    transform: scale(1.5); } }
+
+@keyframes va-innovacion-op {
+  0% {
+    filter: opacity(30%); }
+  100% {
+    filter: opacity(100%); } }
+
+@keyframes fondo-va {
+  0% {
+    filter: saturate(0%); }
+  100% {
+    filter: saturate(100%); } }
+
+@keyframes movimiento-blur-va {
+  0% {
+    transform: scaleX(0); } }
+
+@keyframes fondo-cion {
+  0% {
+    filter: saturate(0%); }
+  100% {
+    filter: saturate(100%); } }
+
+@keyframes movimiento-blur-cion {
+  0% {
+    transform: scaleX(0) translateY(-80px);
+    z-index: 3; }
+  100% {
+    transform: scaleX(1) translateY(-80px);
+    z-index: 3; } }
