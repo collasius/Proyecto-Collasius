@@ -1,20 +1,26 @@
 @media (min-width:800px ){
-    .contenedor-items{
-        padding-left: 200px;
-        line-height: 50px;
-        margin: 0;
+    // nav
+    .menu-principal {
+        .item-inicio{
+            position: absolute;
+            padding: 0px 100px;
+        }
+        .contenedor-nav {
+            margin: 0;
+            padding: 0px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+    
+            .contenedor-items{
+                padding-left: 200px;
+                line-height: 50px;
+                margin: 0;
+            }
+        }
     }
-    .contenedor-nav {
-        margin: 0;
-        padding: 0px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-    }
-    .item-inicio{
-        position: absolute;
-        padding: 0px 100px;
-    }
+
+
 
     /* nosotros */
     .contenedor-contenido-nosotros{
@@ -41,5 +47,23 @@
     .contenido-principal-soporte h3 {
         text-align: left;
         font-size: 22px;
+    }
+
+    // footer
+    .pie-pagina{
+        .contenedor-foot{
+            .contenedor-items-foot{
+                .item-foot{
+                    font-size: 15px;
+                    padding: 10px 50px;
+                    border-left: 1px solid rgb(218, 218, 218);
+                    border-right: 1px solid rgb(218, 218, 218);
+                }
+            }
+        }
+
+        .texto-foot{
+            font-size: 15px;
+        }
     }
 }
