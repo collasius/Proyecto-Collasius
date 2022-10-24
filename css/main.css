@@ -679,18 +679,16 @@ main {
 
 /* RESOPNSIVE SMARTPHONE MEDIO */
 @media (min-width: 420px) {
-  /* foot */
-  .item-foot {
-    font-size: 15px;
-    padding: 20px 10px; }
-  .texto-foot {
-    padding-top: 10px;
-    font-size: 10px; }
   .pie-pagina {
-    padding: 30px 20px 10px 20px; } }
+    padding: 30px 20px 10px 20px; }
+    .pie-pagina .contenedor-foot .contenedor-items-foot .item-foot {
+      font-size: 15px;
+      padding: 20px 10px; }
+    .pie-pagina .texto-foot {
+      padding-top: 10px;
+      font-size: 10px; } }
 
 /* RESPONSIVE TABLET */
-/* nav */
 @media (min-width: 700px) {
   .menu-principal .boton-check {
     display: none; }
@@ -765,7 +763,6 @@ main {
     font-size: 14px; } }
 
 /* RESPONSIVE LAPTOP */
-/* nav */
 @media (min-width: 800px) {
   .contenedor-items {
     padding-left: 200px;
@@ -797,6 +794,7 @@ main {
     text-align: left;
     font-size: 22px; } }
 
+/* SUBCLASES */
 #check:checked ~ .boton-check i {
   transform: rotateZ(90deg); }
 

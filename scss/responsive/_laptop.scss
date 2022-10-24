@@ -1,0 +1,45 @@
+@media (min-width:800px ){
+    .contenedor-items{
+        padding-left: 200px;
+        line-height: 50px;
+        margin: 0;
+    }
+    .contenedor-nav {
+        margin: 0;
+        padding: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .item-inicio{
+        position: absolute;
+        padding: 0px 100px;
+    }
+
+    /* nosotros */
+    .contenedor-contenido-nosotros{
+        padding: 0px 40px;
+    }
+    .contenido-nosotros h3 {
+        text-align: left;
+    }
+
+    /* contacto */
+    .contenido-mapa{
+        padding: 5px 100px;
+   }
+
+    /* soporte */
+       .contenido-principal-soporte p {
+        font-size: 15px;
+    }
+
+    .contenido-principal-soporte section {
+        margin: 40px 20px;
+    }
+    
+    .contenido-principal-soporte h3 {
+        text-align: left;
+        font-size: 22px;
+    }
+}
