@@ -284,31 +284,7 @@ main {
 }
 
 /* Estilado Soporte */
-
-.contenido-principal-soporte {
-    margin: 80px 20px 40px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-.contenido-principal-soporte section {
-    padding: 0px 10px;
-}
-
-.contenido-principal-soporte p {
-    font-size: 15px;
-}
-
-.contenido-principal-soporte ol {
-    padding: 10px 10px;
-}
-.contenido-principal-soporte h3 {
-    text-align: center;
-    font-size: 18px;
-}
-.contenido-principal-soporte ol li {
-    padding: 10px 0px;
-    font-size: 14px;
-}
+@import "_soporte-estilado";
 
 /* RESOPNSIVE SMARTPHONE MEDIO */
 @import "responsive/smartphone-medio";

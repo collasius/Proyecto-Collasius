@@ -36,17 +36,21 @@
    }
 
     /* soporte */
-       .contenido-principal-soporte p {
-        font-size: 15px;
-    }
+    .contenido-principal-soporte {
 
-    .contenido-principal-soporte section {
-        margin: 40px 20px;
-    }
-    
-    .contenido-principal-soporte h3 {
-        text-align: left;
-        font-size: 22px;
+        section {
+            margin: 40px 20px;
+
+            h3 {
+                text-align: left;
+                font-size: 22px;
+            }
+
+            ol {
+                padding: 10px 50px;
+                
+            }
+        }
     }
 
     // footer
