@@ -869,8 +869,6 @@ main {
     transform: scaleX(0); } }
 
 @keyframes segundero {
-  0% {
-    transform: rotateZ(0deg); }
   1.67% {
     transform: rotateZ(6deg); }
   3.34% {
@@ -889,7 +887,7 @@ main {
     transform: rotateZ(48deg); }
   15.03% {
     transform: rotateZ(54deg); }
-  16.70% {
+  16.7% {
     transform: rotateZ(60deg); }
   18.37% {
     transform: rotateZ(66deg); }
@@ -929,7 +927,7 @@ main {
     transform: rotateZ(168deg); }
   48.43% {
     transform: rotateZ(174deg); }
-  50.01% {
+  50.1% {
     transform: rotateZ(180deg); }
   51.77% {
     transform: rotateZ(186deg); }
@@ -988,9 +986,7 @@ main {
   96.86% {
     transform: rotateZ(348deg); }
   98.53% {
-    transform: rotateZ(354deg); }
-  100% {
-    transform: rotateZ(360deg); } }
+    transform: rotateZ(354deg); } }
 
 @keyframes fondo-no {
   0% {

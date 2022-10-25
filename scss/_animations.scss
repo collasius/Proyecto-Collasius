@@ -40,68 +40,13 @@
 }
 
 // NO
-@keyframes segundero {
-    0%{transform: rotateZ(0deg);}
-    1.67%{transform: rotateZ(6deg);}
-    3.34%{transform: rotateZ(12deg);}
-    5.01%{transform: rotateZ(18deg);}
-    6.68%{transform: rotateZ(24deg);}
-    8.35%{transform: rotateZ(30deg);}
-    10.02%{transform: rotateZ(36deg);}
-    11.69%{transform: rotateZ(42deg);}
-    13.36%{transform: rotateZ(48deg);}
-    15.03%{transform: rotateZ(54deg);}
-    16.70%{transform: rotateZ(60deg);}
-    18.37%{transform: rotateZ(66deg);}
-    20.04%{transform: rotateZ(72deg);}
-    21.71%{transform: rotateZ(78deg);}
-    23.38%{transform: rotateZ(84deg);}
-    25.05%{transform: rotateZ(90deg);}
-    26.72%{transform: rotateZ(96deg);}
-    28.39%{transform: rotateZ(102deg);}
-    30.06%{transform: rotateZ(108deg);}
-    31.73%{transform: rotateZ(114deg);}
-    33.4%{transform: rotateZ(120deg);}
-    35.07%{transform: rotateZ(126deg);}
-    36.74%{transform: rotateZ(132deg);}
-    38.41%{transform: rotateZ(138deg);}
-    40.08%{transform: rotateZ(144deg);}
-    41.75%{transform: rotateZ(150deg);}
-    43.42%{transform: rotateZ(156deg);}
-    45.09%{transform: rotateZ(162deg);}
-    46.76%{transform: rotateZ(168deg);}
-    48.43%{transform: rotateZ(174deg);}
-    50.01%{transform: rotateZ(180deg);}
-    51.77%{transform: rotateZ(186deg);}
-    53.44%{transform: rotateZ(192deg);}
-    55.11%{transform: rotateZ(198deg);}
-    56.78%{transform: rotateZ(204deg);}
-    58.45%{transform: rotateZ(210deg);}
-    60.12%{transform: rotateZ(216deg);}
-    61.79%{transform: rotateZ(222deg);}
-    63.46%{transform: rotateZ(228deg);}
-    65.13%{transform: rotateZ(234deg);}
-    66.8%{transform: rotateZ(240deg);}
-    68.47%{transform: rotateZ(246deg);}
-    70.14%{transform: rotateZ(252deg);}
-    71.81%{transform: rotateZ(258deg);}
-    73.48%{transform: rotateZ(264deg);}
-    75.15%{transform: rotateZ(270deg);}
-    76.82%{transform: rotateZ(276deg);}
-    78.49%{transform: rotateZ(282deg);}
-    80.16%{transform: rotateZ(288deg);}
-    81.83%{transform: rotateZ(294deg);}
-    83.5%{transform: rotateZ(300deg);}
-    85.17%{transform: rotateZ(306deg);}
-    86.84%{transform: rotateZ(312deg);}
-    88.51%{transform: rotateZ(318deg);}
-    90.18%{transform: rotateZ(324deg);}
-    91.85%{transform: rotateZ(330deg);}
-    93.52%{transform: rotateZ(336deg);}
-    95.19%{transform: rotateZ(342deg);}
-    96.86%{transform: rotateZ(348deg);}
-    98.53%{transform: rotateZ(354deg);}
-    100%{transform: rotateZ(360deg);}
+@keyframes segundero{
+
+    @for $segundero from 1 to 60 {
+        #{1.67%*$segundero}{
+            transform: rotateZ(6deg * $segundero);
+            }
+    }
 }
 
 @keyframes fondo-no {
