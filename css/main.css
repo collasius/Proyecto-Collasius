@@ -123,9 +123,8 @@ main {
   justify-items: center;
   align-content: center;
   align-items: center; }
-
-.innovacion-item {
-  margin: 50px 0px; }
+  .contenido-innovacion .innovacion-item {
+    margin: 50px 0px; }
 
 .innovacion-in {
   display: flex;
@@ -775,7 +774,7 @@ main {
     font-size: 14px; } }
 
 /* RESPONSIVE LAPTOP */
-@media (min-width: 800px) {
+@media (min-width: 830px) {
   .menu-principal .item-inicio {
     position: absolute;
     padding: 0px 130px; }
@@ -853,7 +852,7 @@ main {
 
 @keyframes wrapper-1 {
   0% {
-    transform: translateX(-500px) scale(0.8);
+    transform: translateX(-500px) scale(0.5);
     filter: opacity(0%); }
   100% {
     transform: translateX(0px) scale(1);
@@ -861,7 +860,7 @@ main {
 
 @keyframes wrapper-2 {
   0% {
-    transform: translateX(500px) scale(0.8);
+    transform: translateX(500px) scale(0.5);
     filter: opacity(0%); }
   100% {
     transform: translateX(-5px) scale(1);
