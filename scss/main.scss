@@ -1,4 +1,7 @@
-// @import "_variables";
+@import "bootstrap/bootstrap.scss";
+
+/* MI CSS*/
+
 @import "_mixin";
 
 
@@ -21,7 +24,7 @@ body {
 
 @import "_nav-estilado";
 
-// /* ESTILADO MAIN INICIO*/
+/* ESTILADO MAIN INICIO*/
 
 main {
     min-height: 83vh;
