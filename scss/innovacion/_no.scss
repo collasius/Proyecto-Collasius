@@ -33,12 +33,7 @@
     height: 440px;
     width: 480px;
     transform: rotateZ(0deg);
-    animation-duration: 60s;
-    animation-iteration-count:infinite;
-    animation-timing-function:step-end;
-}
-.no-seg{
-    animation-name: segundero;
+    @include animaciones (60s , infinite , step-end , segundero);
 }
 
 .fondo-animado-no {

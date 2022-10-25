@@ -41,9 +41,8 @@
 
 // NO
 @keyframes segundero{
-
-    @for $segundero from 1 to 60 {
-        #{1.67%*$segundero}{
+    @for $segundero from 1 through 60 {
+        #{1.6666666%*$segundero}{
             transform: rotateZ(6deg * $segundero);
             }
     }
