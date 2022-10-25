@@ -94,30 +94,26 @@ main {
   background-color: black;
   height: 100%;
   width: 100%; }
-
-.wrapper {
-  padding: 50px 0px 0px 0px;
-  display: grid;
-  place-content: center;
-  background-color: BLACK;
-  font-family: 'Oswald', sans-serif;
-  font-size: 100px;
-  color: #c1c1c1; }
-
-.wrapper div {
-  grid-area: 1/1/-1/-1; }
-
-.meli-1 {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%); }
-
-.bottom {
-  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
-  color: transparent;
-  background: -webkit-linear-gradient(177deg, black 53%, WHITE 65%);
-  background: linear-gradient(177deg, black 53%, #313131 65%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  transform: translateX(-0.02em); }
+  .seccion-principal .wrapper {
+    padding: 50px 0px 0px 0px;
+    display: grid;
+    place-content: center;
+    background-color: BLACK;
+    font-family: 'Oswald', sans-serif;
+    font-size: 130px;
+    color: #c1c1c1; }
+    .seccion-principal .wrapper div {
+      grid-area: 1/1/-1/-1; }
+    .seccion-principal .wrapper .meli-1 {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%); }
+    .seccion-principal .wrapper .bottom {
+      clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+      color: transparent;
+      background: -webkit-linear-gradient(177deg, black 53%, WHITE 65%);
+      background: linear-gradient(177deg, black 53%, #313131 65%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      transform: translateX(-5px); }
 
 .contenido-innovacion {
   display: grid;
@@ -679,6 +675,8 @@ main {
 
 /* RESOPNSIVE SMARTPHONE MEDIO */
 @media (min-width: 420px) {
+  .seccion-principal .wrapper {
+    font-size: 150px; }
   .pie-pagina {
     padding: 30px 20px 10px 20px; }
     .pie-pagina .contenedor-foot .contenedor-items-foot .item-foot {
@@ -721,6 +719,22 @@ main {
           margin: 0;
           padding: 0; }
   /* inicio */
+  .seccion-principal .wrapper {
+    font-size: 200px;
+    padding-top: 0px;
+    overflow: hidden; }
+    .seccion-principal .wrapper .meli-1 {
+      animation-duration: 3s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out; }
+    .seccion-principal .wrapper .meli-2 {
+      animation-duration: 3s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out; }
+  .seccion-principal .wrapper .meli-1 {
+    animation-name: wrapper-1; }
+  .seccion-principal .wrapper .meli-2 {
+    animation-name: wrapper-2; }
   .diseno-1-1 {
     max-width: none; }
   .contenedor-melphones {
@@ -764,7 +778,7 @@ main {
 @media (min-width: 800px) {
   .menu-principal .item-inicio {
     position: absolute;
-    padding: 0px 100px; }
+    padding: 0px 130px; }
   .menu-principal .contenedor-nav {
     margin: 0;
     padding: 0px;
@@ -836,6 +850,22 @@ main {
 
 .link-saber-mas:active {
   font-size: 17px; }
+
+@keyframes wrapper-1 {
+  0% {
+    transform: translateX(-500px) scale(0.8);
+    filter: opacity(0%); }
+  100% {
+    transform: translateX(0px) scale(1);
+    filter: opacity(100%); } }
+
+@keyframes wrapper-2 {
+  0% {
+    transform: translateX(500px) scale(0.8);
+    filter: opacity(0%); }
+  100% {
+    transform: translateX(-5px) scale(1);
+    filter: opacity(100%); } }
 
 @keyframes fondo-in {
   0% {

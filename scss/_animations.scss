@@ -1,4 +1,28 @@
 // animaciones inicio
+
+// wrapper
+
+@keyframes wrapper-1 {
+    0%{
+        transform:translateX(-500px) scale(0.8);
+        filter: opacity(0%);
+    }
+    100%{
+        transform:translateX(0px) scale(1);
+        filter: opacity(100%);
+    }
+}
+@keyframes wrapper-2 {
+    0%{
+        transform:translateX(500px) scale(0.8);
+        filter: opacity(0%);
+    }
+    100%{
+        transform:translateX(-5px) scale(1);
+        filter: opacity(100%);
+    }
+}
+
 // IN
 
 @keyframes fondo-in {
