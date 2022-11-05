@@ -9050,6 +9050,9 @@ main {
       font-size: 20px; }
     .contenido-principal-soporte section p {
       font-size: 16px; }
+      .contenido-principal-soporte section p a {
+        color: #5d87d0;
+        text-decoration: none; }
     .contenido-principal-soporte section ol {
       margin-bottom: 40px;
       padding: 10px 10px;
@@ -9062,6 +9065,18 @@ main {
       .contenido-principal-soporte section ol button a {
         text-decoration: none;
         color: white; }
+    .contenido-principal-soporte section ul {
+      margin: 40px 0px; }
+      .contenido-principal-soporte section ul li {
+        margin: 10px 10px;
+        padding: 0px 10px;
+        margin-right: 40px;
+        list-style-type: disclosure-closed;
+        font-size: 18px;
+        border-bottom: 1px solid #c7c7c7; }
+        .contenido-principal-soporte section ul li a {
+          color: #5d87d0;
+          text-decoration: none; }
 
 /* RESOPNSIVE SMARTPHONE MEDIO */
 @media (min-width: 420px) {
@@ -9183,7 +9198,7 @@ main {
     padding: 5px 100px; }
   /* soporte */
   .contenido-principal-soporte section {
-    margin: 80px 20px; }
+    margin: 80px 120px; }
     .contenido-principal-soporte section h3, .contenido-principal-soporte section .h3 {
       text-align: left; }
     .contenido-principal-soporte section ol {
@@ -9191,8 +9206,8 @@ main {
   .pie-pagina .contenedor-foot .contenedor-items-foot .item-foot {
     font-size: 15px;
     padding: 10px 50px;
-    border-left: 1px solid #dadada;
-    border-right: 1px solid #dadada; }
+    border-left: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7; }
   .pie-pagina .texto-foot {
     font-size: 15px; } }
 
