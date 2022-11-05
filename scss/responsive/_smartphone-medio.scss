@@ -3,7 +3,7 @@
     // wrapper
     .seccion-principal{
         .wrapper {
-            font-size: 150px;
+            font-size: $text-general*10;
         }
     }
 
@@ -17,7 +17,7 @@
             .contenedor-items-foot{
 
                 .item-foot{
-                    font-size: 15px;
+                    font-size: $text-item-foot-2;
                     padding: 20px 10px;
             
                 }
@@ -26,7 +26,7 @@
 
         .texto-foot{
             padding-top: 10px;
-            font-size: 10px;
+            font-size: $text-footer-2;
         }
     }
 }

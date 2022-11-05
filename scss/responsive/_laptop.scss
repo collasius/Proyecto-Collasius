@@ -3,14 +3,13 @@
     .menu-principal {
         .item-inicio{
             position: absolute;
-            padding: 0px 130px;
+            padding: 0px 100px;
         }
         .contenedor-nav {
             margin: 0;
             padding: 0px;
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
-            font-size: 15px;
     
             .contenedor-items{
                 padding-left: 200px;
@@ -39,11 +38,10 @@
     .contenido-principal-soporte {
 
         section {
-            margin: 40px 20px;
+            margin: 80px 20px;
 
             h3 {
                 text-align: left;
-                font-size: 22px;
             }
 
             ol {

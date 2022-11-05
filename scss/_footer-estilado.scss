@@ -23,14 +23,14 @@
                 color: #848484;
                 border-color: #848484;
                 padding: 20px 5px;
-                font-size: 12px;
+                font-size: $text-item-foot;
             }
         }
     }
     .texto-foot{
         border-top: 1px solid;
         border-color: #cccccc;
-        font-size: 10px;
+        font-size: $text-footer;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

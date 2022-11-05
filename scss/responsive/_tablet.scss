@@ -110,10 +110,9 @@
     .contenido-principal-soporte {
 
         section {
-            margin: 40px 0px;
 
             h3 {
-                font-size: 20px;
+                font-size: $text-titulo;
             }
 
             ol {
@@ -128,7 +127,7 @@
         .contenedor-foot{
             .contenedor-items-foot{
                 .item-foot{
-                    font-size: 18px;
+                    font-size: $text-item-foot-2;
                     padding: 20px 10px;
             
                 }
@@ -136,7 +135,7 @@
         }
 
         .texto-foot{
-            font-size: 14px;
+            font-size: $text-footer-2;
         }
     }
 }
