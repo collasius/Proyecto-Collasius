@@ -9016,9 +9016,6 @@ main {
   height: 100%;
   width: 100%; }
 
-#gmap_canvas {
-  z-index: auto !important; }
-
 .contenedor-redes {
   text-align: center; }
 
@@ -9038,6 +9035,7 @@ main {
   font-weight: 300; }
 
 /* Estilado Soporte */
+/* SOPORTE */
 .contenido-principal-soporte {
   margin: 80px 20px 40px 20px;
   font-family: 'Roboto', sans-serif;
@@ -9198,7 +9196,7 @@ main {
     padding: 5px 100px; }
   /* soporte */
   .contenido-principal-soporte section {
-    margin: 80px 120px; }
+    margin: 80px 80px; }
     .contenido-principal-soporte section h3, .contenido-principal-soporte section .h3 {
       text-align: left; }
     .contenido-principal-soporte section ol {

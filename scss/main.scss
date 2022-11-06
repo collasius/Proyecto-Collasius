@@ -265,17 +265,12 @@ main {
     width: 100%;
 }
 
-#gmap_canvas{
-    z-index: auto !important;
-}
 
 .contenedor-redes {
     text-align: center;
 }
 .links-redes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flex-r;
     justify-content: space-around;
     align-items: center;
     box-shadow: 5px 5px 10px rgb(90, 90, 90) ;

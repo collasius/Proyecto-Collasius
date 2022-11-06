@@ -5,3 +5,14 @@
     animation-timing-function: $timing; 
     animation-name: $nombre; 
 }
+
+@mixin flex-r {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+@mixin flex-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
