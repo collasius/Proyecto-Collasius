@@ -15,3 +15,26 @@
 .link-saber-mas:active{
     font-size: 17px;
 }
+
+//soporte
+.contenido-principal-soporte {
+    section {
+        p{
+            a:active{
+                color: $col-link-hover;
+            }
+        }
+        ul {
+            li{
+                a:active{
+                    color: $col-link-hover;
+                }
+            }
+        }
+    }
+}   
+
+// footer
+.item-foot:active{
+    color: black !important; 
+}

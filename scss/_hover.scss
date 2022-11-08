@@ -16,6 +16,24 @@
     text-decoration:underline;
 }
 
+//soporte
+.contenido-principal-soporte {
+    section {
+        p{
+            a:hover{
+                color: $col-link-hover;
+            }
+        }
+        ul {
+            li{
+                a:hover{
+                    color: $col-link-hover;
+                }
+            }
+        }
+    }
+}   
+
 // footer
 .item-foot:hover{
     color: black !important; 

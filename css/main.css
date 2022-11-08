@@ -9038,14 +9038,23 @@ main {
 /* SOPORTE */
 .contenido-principal-soporte {
   margin: 80px 20px 40px 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #555555;
   font-weight: 300; }
+  .contenido-principal-soporte .titulo-soporte {
+    text-align: center;
+    font-weight: 800;
+    align-content: center;
+    font-size: 40px;
+    color: #959595;
+    box-shadow: 10px 20px 10px #d5d5d5; }
   .contenido-principal-soporte section {
     margin: 80px 0px;
     padding: 0px 10px; }
-    .contenido-principal-soporte section h3, .contenido-principal-soporte section .h3 {
+    .contenido-principal-soporte section h4, .contenido-principal-soporte section .h4 {
       text-align: center;
-      font-size: 20px; }
+      font-size: 20px;
+      border-bottom: 5px solid #f5f5f5; }
     .contenido-principal-soporte section p {
       font-size: 16px; }
       .contenido-principal-soporte section p a {
@@ -9163,7 +9172,9 @@ main {
   .contenido-mapa {
     padding: 5px 50px; }
   /* soporte */
-  .contenido-principal-soporte section h3, .contenido-principal-soporte section .h3 {
+  .contenido-principal-soporte .titulo-soporte {
+    font-size: 40px; }
+  .contenido-principal-soporte section h4, .contenido-principal-soporte section .h4 {
     font-size: 20px; }
   .contenido-principal-soporte section ol {
     padding: 10px 50px; }
@@ -9196,9 +9207,11 @@ main {
   .contenido-mapa {
     padding: 5px 100px; }
   /* soporte */
+  .contenido-principal-soporte .titulo-soporte {
+    font-size: 60px; }
   .contenido-principal-soporte section {
     margin: 80px 80px; }
-    .contenido-principal-soporte section h3, .contenido-principal-soporte section .h3 {
+    .contenido-principal-soporte section h4, .contenido-principal-soporte section .h4 {
       text-align: left; }
     .contenido-principal-soporte section ol {
       padding: 10px 50px; }
@@ -9231,6 +9244,12 @@ main {
 .link-saber-mas:hover {
   text-decoration: underline; }
 
+.contenido-principal-soporte section p a:hover {
+  color: #28467a; }
+
+.contenido-principal-soporte section ul li a:hover {
+  color: #28467a; }
+
 .item-foot:hover {
   color: black !important; }
 
@@ -9247,6 +9266,15 @@ main {
 
 .link-saber-mas:active {
   font-size: 17px; }
+
+.contenido-principal-soporte section p a:active {
+  color: #28467a; }
+
+.contenido-principal-soporte section ul li a:active {
+  color: #28467a; }
+
+.item-foot:active {
+  color: black !important; }
 
 @keyframes wrapper-1 {
   0% {

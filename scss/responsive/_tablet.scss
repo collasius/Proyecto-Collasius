@@ -108,10 +108,13 @@
     /* soporte */
 
     .contenido-principal-soporte {
+        .titulo-soporte{
+            font-size: $text-titulo*2;
+        }
 
         section {
 
-            h3 {
+            h4 {
                 font-size: $text-titulo;
             }
 
