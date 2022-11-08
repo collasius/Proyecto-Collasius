@@ -1,8 +1,8 @@
 .pie-pagina {
-    background-color: #efefef;
-    font-family: 'Roboto', sans-serif;
+    background-color: $col-fondo-foot;
+    font-family: $letra;
     font-weight: 300;
-    font-size: 12px;
+    font-size: $text-item-foot;
     padding: 30px 5px 10px 5px;
 
     .contenedor-foot{
@@ -12,16 +12,14 @@
             padding: 10px 0px;
             margin: 0;
             list-style-type: none;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+            @include flex-r;
             justify-content: space-around;
             align-items: center;
 
             .item-foot{
                 text-decoration: none;
-                color: #848484;
-                border-color: #848484;
+                color: $col-text-foot;
+                border-color: $col-bord;
                 padding: 20px 5px;
                 font-size: $text-item-foot;
             }
@@ -29,13 +27,11 @@
     }
     .texto-foot{
         border-top: 1px solid;
-        border-color: #cccccc;
+        border-color: $col-bord;
         font-size: $text-footer;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex-r;
         justify-content: space-between;
-        color: #7d7d7d;
+        color: $col-text-foot;
         align-content: baseline;
     }
 }

@@ -22,9 +22,7 @@
                 line-height: 50px;
                 padding-top: 0;
                 padding-left: 50px;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
+                @include flex-r;
                 justify-content: space-around;
                 align-items: center;
     

@@ -6,6 +6,11 @@
     animation-name: $nombre; 
 }
 
+@mixin transiciones ($timing) {
+    transition-property: all;
+    transition-duration: $timing; 
+}
+
 @mixin flex-r {
     display: flex;
     flex-direction:row;

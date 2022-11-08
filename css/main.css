@@ -8406,7 +8406,7 @@ body {
   position: fixed;
   z-index: 12;
   width: 100%;
-  background: #000000bb;
+  background: #000000a1;
   height: 50px;
   backdrop-filter: saturate(200%) blur(20px);
   -webkit-backdrop-filter: saturate(200%) blur(20px);
@@ -8423,7 +8423,7 @@ body {
     display: block; }
     .menu-principal .boton-check i {
       transition-property: all;
-      transition-duration: 0.2s; }
+      transition-duration: 0.5s; }
   .menu-principal .item-inicio {
     position: absolute;
     padding: 0;
@@ -8436,12 +8436,12 @@ body {
   .menu-principal .contenedor-nav {
     margin: 0;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     width: 100%;
     height: 100vh;
-    background: #000000da;
+    background: #000000a1;
     backdrop-filter: saturate(200%) blur(20px);
     -webkit-backdrop-filter: saturate(200%) blur(20px);
     margin-top: 50px;
@@ -8460,15 +8460,15 @@ body {
       padding-left: 0; }
       .menu-principal .contenedor-nav .contenedor-items .item {
         text-decoration: none;
-        color: #e8e8e8e0;
+        color: #e0e0e0;
         transition-property: all;
         transition-duration: 0.1s; }
       .menu-principal .contenedor-nav .contenedor-items li {
         margin: 20px 0px;
         transition-property: all;
         transition-duration: 0.1s;
-        border-top: solid 1px rgba(255, 255, 255, 0.247);
-        border-bottom: solid 1px rgba(255, 255, 255, 0.247); }
+        border-top: solid 1px #858585a1;
+        border-bottom: solid 1px #858585a1; }
         .menu-principal .contenedor-nav .contenedor-items li a {
           margin: 10px 80px; }
 
@@ -8866,8 +8866,8 @@ main {
   margin: 10px 10px; }
 
 .pie-pagina {
-  background-color: #efefef;
-  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 12px;
   padding: 30px 5px 10px 5px; }
@@ -8885,18 +8885,18 @@ main {
       .pie-pagina .contenedor-foot .contenedor-items-foot .item-foot {
         text-decoration: none;
         color: #848484;
-        border-color: #848484;
+        border-color: #c7c7c7;
         padding: 20px 5px;
         font-size: 12px; }
   .pie-pagina .texto-foot {
     border-top: 1px solid;
-    border-color: #cccccc;
+    border-color: #c7c7c7;
     font-size: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: #7d7d7d;
+    color: #848484;
     align-content: baseline; }
 
 .contenido-principal-productos {
@@ -9192,7 +9192,6 @@ main {
   .menu-principal .contenedor-nav {
     margin: 0;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500; }
     .menu-principal .contenedor-nav .contenedor-items {
       padding-left: 200px;
