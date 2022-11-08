@@ -12,7 +12,7 @@
         align-content: center;
         font-size: $text-titulo*2;
         color: $col-titulo-grande;
-        box-shadow: 10px 20px 10px rgb(213, 213, 213) ;
+        @include sombra-titulo;
     }
 
     section {

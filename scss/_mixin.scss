@@ -21,3 +21,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
+@mixin sombra-titulo{
+    box-shadow: 0px 20px 10px rgb(213, 213, 213) ;
+}

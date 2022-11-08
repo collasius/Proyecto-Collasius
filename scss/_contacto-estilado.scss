@@ -1,0 +1,67 @@
+.contenido-principal-contacto {
+    margin: 70px 0px 20px 0px;
+    font-family: $letra;
+
+    .contenedor-contenido-mapa {
+        text-align: center;
+
+        .titulo-contacto{
+            @include sombra-titulo;
+            color: $col-titulo-grande;
+            font-weight: 500;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .contenedor-mapa {
+            height: 400px;
+
+            .contenido-mapa {
+                z-index: 1;
+                padding: 5px 20px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .texto-mapa {
+            background-color: #e0e4ff;
+            padding: 10px;
+
+            p{
+                font-weight: 300;
+                font-size: 15px;
+                padding: 0px 20px;
+            }
+        }
+    }
+
+    .contenedor-redes {
+        text-align: center;
+
+        .titulo-redes{
+            @include sombra-titulo;
+            color: $col-titulo-grande;
+            font-weight: 500;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .contenido-redes{
+
+            .links-redes {
+                @include flex-r;
+                justify-content: space-around;
+                align-items: center;
+                box-shadow: 5px 5px 10px rgb(90, 90, 90) ;
+                border-radius: 50px 50px;
+            }
+        } 
+    }
+
+    .contenedor-consultas{
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 300;
+    }
+}

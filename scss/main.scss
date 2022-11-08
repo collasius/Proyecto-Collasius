@@ -224,65 +224,7 @@ main {
 }
 
 /* Estilado Contacto */
-
-.contenido-principal-contacto {
-    margin: 70px 0px 20px 0px;
-}
-
-.contenedor-contenido-mapa {
-    text-align: center;
-}
-
-.contenido-principal-contacto h3{
-    background-color: #393939;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    padding: 5px;
-}
-
-.contenido-principal-contacto p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    padding: 0px 20px;
-}
-
-.texto-mapa {
-    background-color: #e0e4ff;
-    padding: 10px;
-}
-
-.contenedor-mapa{
-    height: 400px;
-}
-
-.contenido-mapa{
-    z-index: 1;
-    padding: 5px 20px;
-    height: 100%;
-    width: 100%;
-}
-
-
-.contenedor-redes {
-    text-align: center;
-}
-.links-redes {
-    @include flex-r;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 5px 5px 10px rgb(90, 90, 90) ;
-    border-radius: 50px 50px;
-}
-
-.contenedor-consultas{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
+@import "_contacto-estilado";
 
 /* Estilado Soporte */
 @import "_soporte-estilado";

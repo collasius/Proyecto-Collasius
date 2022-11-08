@@ -8984,55 +8984,50 @@ main {
 
 /* Estilado Contacto */
 .contenido-principal-contacto {
-  margin: 70px 0px 20px 0px; }
-
-.contenedor-contenido-mapa {
-  text-align: center; }
-
-.contenido-principal-contacto h3, .contenido-principal-contacto .h3 {
-  background-color: #393939;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 25px;
-  padding: 5px; }
-
-.contenido-principal-contacto p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  padding: 0px 20px; }
-
-.texto-mapa {
-  background-color: #e0e4ff;
-  padding: 10px; }
-
-.contenedor-mapa {
-  height: 400px; }
-
-.contenido-mapa {
-  z-index: 1;
-  padding: 5px 20px;
-  height: 100%;
-  width: 100%; }
-
-.contenedor-redes {
-  text-align: center; }
-
-.links-redes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  box-shadow: 5px 5px 10px #5a5a5a;
-  border-radius: 50px 50px; }
-
-.contenedor-consultas {
-  text-align: center;
-  margin-top: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300; }
+  margin: 70px 0px 20px 0px;
+  font-family: "Roboto", sans-serif; }
+  .contenido-principal-contacto .contenedor-contenido-mapa {
+    text-align: center; }
+    .contenido-principal-contacto .contenedor-contenido-mapa .titulo-contacto {
+      box-shadow: 0px 20px 10px #d5d5d5;
+      color: #959595;
+      font-weight: 500;
+      font-size: 25px;
+      padding: 5px; }
+    .contenido-principal-contacto .contenedor-contenido-mapa .contenedor-mapa {
+      height: 400px; }
+      .contenido-principal-contacto .contenedor-contenido-mapa .contenedor-mapa .contenido-mapa {
+        z-index: 1;
+        padding: 5px 20px;
+        height: 100%;
+        width: 100%; }
+    .contenido-principal-contacto .contenedor-contenido-mapa .texto-mapa {
+      background-color: #e0e4ff;
+      padding: 10px; }
+      .contenido-principal-contacto .contenedor-contenido-mapa .texto-mapa p {
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0px 20px; }
+  .contenido-principal-contacto .contenedor-redes {
+    text-align: center; }
+    .contenido-principal-contacto .contenedor-redes .titulo-redes {
+      box-shadow: 0px 20px 10px #d5d5d5;
+      color: #959595;
+      font-weight: 500;
+      font-size: 25px;
+      padding: 5px; }
+    .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 5px 5px 10px #5a5a5a;
+      border-radius: 50px 50px; }
+  .contenido-principal-contacto .contenedor-consultas {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 300; }
 
 /* Estilado Soporte */
 /* SOPORTE */
@@ -9047,7 +9042,7 @@ main {
     align-content: center;
     font-size: 40px;
     color: #959595;
-    box-shadow: 10px 20px 10px #d5d5d5; }
+    box-shadow: 0px 20px 10px #d5d5d5; }
   .contenido-principal-soporte section {
     margin: 80px 0px;
     padding: 0px 10px; }
