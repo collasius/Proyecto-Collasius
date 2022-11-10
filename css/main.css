@@ -8990,9 +8990,9 @@ main {
     text-align: center; }
     .contenido-principal-contacto .contenedor-contenido-mapa .titulo-contacto {
       box-shadow: 0px 20px 10px #d5d5d5;
-      color: #959595;
-      font-weight: 500;
-      font-size: 25px;
+      color: #5f5f5f;
+      font-weight: 800;
+      font-size: 40px;
       padding: 5px; }
     .contenido-principal-contacto .contenedor-contenido-mapa .contenedor-mapa {
       height: 400px; }
@@ -9012,18 +9012,47 @@ main {
     text-align: center; }
     .contenido-principal-contacto .contenedor-redes .titulo-redes {
       box-shadow: 0px 20px 10px #d5d5d5;
-      color: #959595;
-      font-weight: 500;
-      font-size: 25px;
+      color: #5f5f5f;
+      font-weight: 800;
+      font-size: 40px;
       padding: 5px; }
-    .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      box-shadow: 5px 5px 10px #5a5a5a;
-      border-radius: 50px 50px; }
+    .contenido-principal-contacto .contenedor-redes .contenido-redes {
+      margin-top: 40px;
+      overflow: hidden; }
+      .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center; }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes a i {
+          font-size: 80px;
+          transform: skewX(15deg);
+          color: white;
+          line-height: 200px; }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes a P {
+          text-align: center; }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .redes, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube {
+          height: 200px;
+          width: 100%;
+          overflow: hidden;
+          transform: skewX(-15deg); }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram {
+          background: #433ab4;
+          background: linear-gradient(307deg, #433ab4 0%, #603ab4 16%, #be2986 46%, #fd1d1d 71%, #fcfc45 100%); }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp {
+          background: #49de6d;
+          background: linear-gradient(212deg, #49de6d 0%, #00bb2d 57%, #00a328 100%); }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter {
+          background: #70d7ff;
+          background: linear-gradient(212deg, #70d7ff 0%, #00acee 51%, #005ea1 100%); }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook {
+          background: #81c2ff;
+          background: linear-gradient(212deg, #81c2ff 0%, #3b5998 60%, #13409e 100%); }
+        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube {
+          background: #ff0800;
+          background: linear-gradient(212deg, #ff0800 0%, #c4302b 50%, #700400 100%); }
   .contenido-principal-contacto .contenedor-consultas {
     text-align: center;
     margin-top: 50px;
@@ -9041,7 +9070,7 @@ main {
     font-weight: 800;
     align-content: center;
     font-size: 40px;
-    color: #959595;
+    color: #5f5f5f;
     box-shadow: 0px 20px 10px #d5d5d5; }
   .contenido-principal-soporte section {
     margin: 80px 0px;
