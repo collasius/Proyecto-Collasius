@@ -16,6 +16,26 @@
     text-decoration:underline;
 }
 
+
+//contacto
+
+.contenido-principal-contacto {
+    .contenedor-redes {
+        .contenido-redes{
+            margin-top: 40px;
+            overflow: hidden;
+            .links-redes {
+
+                .redes:hover{
+                    -webkit-filter: blur(0px) saturate(100%);
+                    transform: scale(1.1) skew(-15deg);
+                    z-index: 5;
+                }
+            }
+        } 
+    }
+}
+
 //soporte
 .contenido-principal-soporte {
     section {

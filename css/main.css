@@ -9031,8 +9031,6 @@ main {
           transform: skewX(15deg);
           color: white;
           line-height: 200px; }
-        .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes a P {
-          text-align: center; }
         .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .redes, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube {
           height: 200px;
           width: 100%;
@@ -9227,8 +9225,11 @@ main {
   .contenido-nosotros h3, .contenido-nosotros .h3 {
     text-align: left; }
   /* contacto */
-  .contenido-mapa {
-    padding: 5px 100px; }
+  .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes a {
+    -webkit-filter: blur(0px) saturate(10%); }
+  .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .redes, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube {
+    transition-property: all;
+    transition-duration: 0.15s; }
   /* soporte */
   .contenido-principal-soporte .titulo-soporte {
     font-size: 60px; }
@@ -9266,6 +9267,14 @@ main {
 
 .link-saber-mas:hover {
   text-decoration: underline; }
+
+.contenido-principal-contacto .contenedor-redes .contenido-redes {
+  margin-top: 40px;
+  overflow: hidden; }
+  .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover {
+    -webkit-filter: blur(0px) saturate(100%);
+    transform: scale(1.1) skew(-15deg);
+    z-index: 5; }
 
 .contenido-principal-soporte section p a:hover {
   color: #28467a; }
