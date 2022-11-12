@@ -28,22 +28,6 @@
         text-align: left;
     }
 
-    /* contacto */
-    .contenido-principal-contacto {
-        .contenedor-redes {
-            .contenido-redes{
-                .links-redes {
-                    a{
-                        -webkit-filter: blur(0px) saturate(10%);
-                    }
-                    .redes{
-                        @include transiciones (0.15s);
-                    }
-                }
-            } 
-        }
-    }
-
     /* soporte */
     .contenido-principal-soporte {
 

@@ -8992,7 +8992,7 @@ main {
       box-shadow: 0px 20px 10px #d5d5d5;
       color: #5f5f5f;
       font-weight: 800;
-      font-size: 40px;
+      font-size: 50px;
       padding: 5px; }
     .contenido-principal-contacto .contenedor-contenido-mapa .contenedor-mapa {
       height: 400px; }
@@ -9014,7 +9014,7 @@ main {
       box-shadow: 0px 20px 10px #d5d5d5;
       color: #5f5f5f;
       font-weight: 800;
-      font-size: 40px;
+      font-size: 50px;
       padding: 5px; }
     .contenido-principal-contacto .contenedor-redes .contenido-redes {
       margin-top: 40px;
@@ -9035,7 +9035,9 @@ main {
           height: 200px;
           width: 100%;
           overflow: hidden;
-          transform: skewX(-15deg); }
+          transform: skewX(-15deg);
+          transition-property: all;
+          transition-duration: 0.15s; }
         .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram {
           background: #433ab4;
           background: linear-gradient(307deg, #433ab4 0%, #603ab4 16%, #be2986 46%, #fd1d1d 71%, #fcfc45 100%); }
@@ -9224,12 +9226,6 @@ main {
     padding: 0px 40px; }
   .contenido-nosotros h3, .contenido-nosotros .h3 {
     text-align: left; }
-  /* contacto */
-  .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes a {
-    -webkit-filter: blur(0px) saturate(10%); }
-  .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .redes, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube {
-    transition-property: all;
-    transition-duration: 0.15s; }
   /* soporte */
   .contenido-principal-soporte .titulo-soporte {
     font-size: 60px; }
@@ -9267,6 +9263,9 @@ main {
 
 .link-saber-mas:hover {
   text-decoration: underline; }
+
+body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .redes:not(:hover), body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:not(:hover), .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .instagram:not(:hover), body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:not(:hover), .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .whatsapp:not(:hover), body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:not(:hover), .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .twitter:not(:hover), body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:not(:hover), .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .facebook:not(:hover), body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:not(:hover), .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .instagram:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .whatsapp:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .twitter:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .facebook:hover, .contenido-principal-contacto .contenedor-redes .contenido-redes .links-redes .youtube:hover) .youtube:not(:hover) {
+  -webkit-filter: saturate(50%) blur(8px); }
 
 .contenido-principal-contacto .contenedor-redes .contenido-redes {
   margin-top: 40px;

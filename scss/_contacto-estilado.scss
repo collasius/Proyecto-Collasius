@@ -9,7 +9,7 @@
             @include sombra-titulo;
             color: $col-titulo-grande;
             font-weight: 800;
-            font-size: $text-titulo*2;
+            font-size: $text-titulo-g;
             padding: 5px;
         }
 
@@ -43,7 +43,7 @@
             @include sombra-titulo;
             color: $col-titulo-grande;
             font-weight: 800;
-            font-size: $text-titulo*2;
+            font-size: $text-titulo-g;
             padding: 5px;
         }
 
@@ -70,6 +70,7 @@
                     width: 100%;
                     overflow: hidden;
                     transform:skewX(-15deg);
+                    @include transiciones (0.15s);
                 }
 
                 .instagram {
