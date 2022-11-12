@@ -14,7 +14,7 @@
         }
 
         .contenedor-mapa {
-            height: 400px;
+            height: 300px;
 
             .contenido-mapa {
                 z-index: 1;
@@ -25,12 +25,13 @@
         }
 
         .texto-mapa {
-            background-color: #e0e4ff;
+            margin-top: 40px;
+            background-color: #ffffff;
             padding: 10px;
 
             p{
                 font-weight: 300;
-                font-size: 15px;
+                font-size: $text-general;
                 padding: 0px 20px;
             }
         }
@@ -59,7 +60,7 @@
 
                 a{
                     i{
-                        font-size: 80px;
+                        font-size: $text-titulo-g*2;
                         transform:skewX(15deg);
                         color: white;
                         line-height: 200px;

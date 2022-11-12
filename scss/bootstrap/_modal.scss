@@ -30,6 +30,8 @@
   --#{$prefix}modal-footer-bg: #{$modal-footer-bg};
   --#{$prefix}modal-footer-border-color: #{$modal-footer-border-color};
   --#{$prefix}modal-footer-border-width: #{$modal-footer-border-width};
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   // scss-docs-end modal-css-vars
 
   position: fixed;

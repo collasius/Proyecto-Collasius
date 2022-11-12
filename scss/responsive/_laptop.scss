@@ -28,11 +28,70 @@
         text-align: left;
     }
 
+    /* contacto */
+    .contenido-principal-contacto {
+        margin: 70px 0px 20px 0px;
+        font-family: $letra;
+    
+        .contenedor-contenido-mapa {
+            text-align: center;
+    
+            .titulo-contacto{
+                @include sombra-titulo;
+                color: $col-titulo-grande;
+                font-weight: 800;
+                font-size: $text-titulo-g*1.5;
+                padding: 5px;
+            }
+    
+            .contenedor-mapa {
+                height: 400px;
+    
+                .contenido-mapa {
+                    z-index: 1;
+                    padding: 5px 20px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+    
+            .texto-mapa {
+                background-color: #ffffff;
+                padding: 10px;
+    
+                p{
+                    font-weight: 300;
+                    font-size: $text-general;
+                    padding: 0px 20px;
+                }
+            }
+        }
+    
+        .contenedor-redes {
+            text-align: center;
+    
+            .titulo-redes{
+                @include sombra-titulo;
+                color: $col-titulo-grande;
+                font-weight: 800;
+                font-size: $text-titulo-g*1.5;
+                padding: 5px;
+            }
+        }
+    
+        .contenedor-consultas{
+            text-align: center;
+            margin-top: 50px;
+            font-weight: 300;
+        }
+    }
+
+
     /* soporte */
     .contenido-principal-soporte {
 
         .titulo-soporte{
-            font-size: $text-titulo*3;
+            font-size: $text-titulo-g*1.5;
         }
 
         section {
@@ -54,7 +113,7 @@
         .contenedor-foot{
             .contenedor-items-foot{
                 .item-foot{
-                    font-size: 15px;
+                    font-size: $text-item-foot-2;
                     padding: 10px 50px;
                     border-left: 1px solid $col-bord;
                     border-right: 1px solid $col-bord;
@@ -63,7 +122,7 @@
         }
 
         .texto-foot{
-            font-size: 15px;
+            font-size: $text-item-foot-2;
         }
     }
 }
