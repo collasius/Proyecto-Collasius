@@ -1,3 +1,13 @@
+.titulos{
+    margin-top: 20px;
+    @include sombra-titulo;
+    color: $col-titulo-grande;
+    font-weight: 800;
+    font-size: $text-titulo-g;
+    padding: 5px;
+    background-color: $col-fondo-titulo;
+}
+
 .contenido-principal-contacto {
     margin: 70px 0px 20px 0px;
     font-family: $letra;
@@ -6,11 +16,7 @@
         text-align: center;
 
         .titulo-contacto{
-            @include sombra-titulo;
-            color: $col-titulo-grande;
-            font-weight: 800;
-            font-size: $text-titulo-g;
-            padding: 5px;
+            @extend .titulos;
         }
 
         .contenedor-mapa {
@@ -41,11 +47,7 @@
         text-align: center;
 
         .titulo-redes{
-            @include sombra-titulo;
-            color: $col-titulo-grande;
-            font-weight: 800;
-            font-size: $text-titulo-g;
-            padding: 5px;
+            @extend .titulos;
         }
 
         .contenido-redes{
@@ -100,7 +102,22 @@
 
     .contenedor-consultas{
         text-align: center;
-        margin-top: 50px;
         font-weight: 300;
+
+        .titulo-atencion{
+            @extend .titulos;
+            margin-bottom: 20px;
+        }
+        .texto-atencion {
+            margin-top: 40px;
+            background-color: #ffffff;
+            padding: 10px;
+
+            p{
+                font-weight: 300;
+                font-size: $text-general;
+                padding: 0px 20px;
+            }
+        }
     }
 }
