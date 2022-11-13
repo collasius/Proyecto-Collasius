@@ -8,7 +8,6 @@
         .contenedor-nav {
             margin: 0;
             padding: 0px;
-            font-weight: 500;
     
             .contenedor-items{
                 padding-left: 200px;
@@ -22,6 +21,29 @@
 
     /* nosotros */
 
+    .contenido-principal-nosotros {
+        .contenedor-contenido-frase{
+            .presentacion {
+                margin: 40px 0px;
+    
+                p{
+                    padding: 0px 100px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .contenido-objetivo{
+            margin: 20px 100px;
+            div{
+                padding: 0px 50px;
+            }
+        }
+        .historia{
+            margin: 20px 60px;
+        }
+    }
+    
+    
 
     /* contacto */
     .titulos{

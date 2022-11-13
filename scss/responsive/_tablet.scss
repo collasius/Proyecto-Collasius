@@ -92,7 +92,60 @@
     
     /* nosotros */
 
+    .contenido-principal-nosotros {
+        .contenedor-contenido-frase{
+            .contenido-nosotros {
+                .c-contenedor-frase{
+                    .contenedor-frase{
+                        width: 40%;
     
+                        .contenido-frase{
+                            h3{
+                                @include animaciones (2s,1,ease-in-out,fade-in-left);
+                            }
+                        }
+                    }
+                    .contenedor-img{
+                        display: block;
+                        padding-bottom: 2px;
+                        border-radius: 50% 0% 0% 25%;
+                        overflow: hidden;
+                        height: 300px;
+                        width: 60%;
+                        
+                        @include animaciones (2s,1,ease-in-out,fade-in-rigth);
+    
+                        img{
+                            object-fit: cover;
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+            }
+    
+            .presentacion {    
+                p{
+                    padding: 0px 40px;
+                }
+            }
+        }
+    
+        .contenido-objetivo{
+            margin: 20px 40px;
+            @include flex-r;
+            
+            div{
+                padding: 0px 20px;
+                width: 50%;
+            }
+        }
+    
+        .historia{
+            margin: 20px 40px;
+        }
+    }
+
     /* contacto */
     .contenido-mapa{
         padding: 5px 50px;

@@ -7132,7 +7132,7 @@ body {
     margin: 0;
     padding: 0px;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     width: 100%;
     height: 100vh;
@@ -7678,31 +7678,16 @@ main {
         align-items: center;
         background-color: #f7f7f7; }
         .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase {
-          width: 40%; }
+          padding-bottom: 10px;
+          width: 100%; }
           .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase .contenido-frase h3, .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase .contenido-frase .h3 {
             text-align: center;
             color: #5f5f5f;
             font-size: 30px;
             font-weight: 800;
-            animation-duration: 2s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-in-out;
-            animation-name: fade-in-left;
             padding: 0px 40px; }
         .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-img {
-          padding-bottom: 2px;
-          border-radius: 50% 0% 0% 25%;
-          overflow: hidden;
-          height: 300px;
-          width: 60%;
-          animation-duration: 2s;
-          animation-iteration-count: 1;
-          animation-timing-function: ease-in-out;
-          animation-name: fade-in-rigth; }
-          .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-img img {
-            object-fit: cover;
-            width: 100%;
-            height: 100%; }
+          display: none; }
       .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros svg {
         width: 100%;
         position: absolute;
@@ -7715,17 +7700,17 @@ main {
       .contenido-principal-nosotros .contenedor-contenido-frase .presentacion p {
         color: 16px;
         margin: 0;
-        padding: 0px 40px;
+        padding: 0px 20px;
         font-weight: 300;
         font-size: 16px; }
   .contenido-principal-nosotros .contenido-objetivo {
-    margin: 20px 40px;
+    margin: 20px 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    flex-direction: column;
+    flex-wrap: nowrap; }
     .contenido-principal-nosotros .contenido-objetivo div {
-      padding: 0px 20px;
-      width: 50%;
+      padding: 20px 20px;
+      width: 100%;
       color: #555555; }
       .contenido-principal-nosotros .contenido-objetivo div h3, .contenido-principal-nosotros .contenido-objetivo div .h3 {
         text-align: center;
@@ -7734,16 +7719,23 @@ main {
         font-size: 16px;
         font-weight: 300; }
   .contenido-principal-nosotros .historia {
-    margin: 20px 40px; }
-    .contenido-principal-nosotros .historia div {
+    margin: 20px 10px; }
+    .contenido-principal-nosotros .historia .contenido-nuestra-historia {
+      display: grid;
+      grid-row-gap: 0px;
+      grid-column-gap: 0px;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+      align-items: center;
       color: #555555; }
-      .contenido-principal-nosotros .historia div h3, .contenido-principal-nosotros .historia div .h3 {
+      .contenido-principal-nosotros .historia .contenido-nuestra-historia h3, .contenido-principal-nosotros .historia .contenido-nuestra-historia .h3 {
         font-size: 30px; }
-      .contenido-principal-nosotros .historia div p {
+      .contenido-principal-nosotros .historia .contenido-nuestra-historia p {
         font-size: 16px;
         font-weight: 300; }
-      .contenido-principal-nosotros .historia div div {
-        padding: 0px 50px; }
+      .contenido-principal-nosotros .historia .contenido-nuestra-historia .carousel-contenedor {
+        max-width: 500px; }
 
 /* Estilado Contacto */
 .titulos, .contenido-principal-contacto .contenedor-contenido-mapa .titulo-contacto, .contenido-principal-contacto .contenedor-redes .titulo-redes, .contenido-principal-contacto .contenedor-consultas .titulo-atencion {
@@ -7960,6 +7952,40 @@ main {
   .diseno-melphone-blanco {
     transform: none; }
   /* nosotros */
+  .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase {
+    width: 40%; }
+    .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase .contenido-frase h3, .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase .contenido-frase .h3 {
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-name: fade-in-left; }
+  .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-img {
+    display: block;
+    padding-bottom: 2px;
+    border-radius: 50% 0% 0% 25%;
+    overflow: hidden;
+    height: 300px;
+    width: 60%;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-name: fade-in-rigth; }
+    .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-img img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+  .contenido-principal-nosotros .contenedor-contenido-frase .presentacion p {
+    padding: 0px 40px; }
+  .contenido-principal-nosotros .contenido-objetivo {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .contenido-principal-nosotros .contenido-objetivo div {
+      padding: 0px 20px;
+      width: 50%; }
+  .contenido-principal-nosotros .historia {
+    margin: 20px 40px; }
   /* contacto */
   .contenido-mapa {
     padding: 5px 50px; }
@@ -7981,13 +8007,23 @@ main {
     padding: 0px 100px; }
   .menu-principal .contenedor-nav {
     margin: 0;
-    padding: 0px;
-    font-weight: 500; }
+    padding: 0px; }
     .menu-principal .contenedor-nav .contenedor-items {
       padding-left: 200px;
       line-height: 50px;
       margin: 0; }
   /* nosotros */
+  .contenido-principal-nosotros .contenedor-contenido-frase .presentacion {
+    margin: 40px 0px; }
+    .contenido-principal-nosotros .contenedor-contenido-frase .presentacion p {
+      padding: 0px 100px;
+      font-weight: 500; }
+  .contenido-principal-nosotros .contenido-objetivo {
+    margin: 20px 100px; }
+    .contenido-principal-nosotros .contenido-objetivo div {
+      padding: 0px 50px; }
+  .contenido-principal-nosotros .historia {
+    margin: 20px 60px; }
   /* contacto */
   .titulos, .contenido-principal-contacto .contenedor-contenido-mapa .titulo-contacto, .contenido-principal-contacto .contenedor-redes .titulo-redes, .contenido-principal-contacto .contenedor-consultas .titulo-atencion {
     margin-top: 20px;

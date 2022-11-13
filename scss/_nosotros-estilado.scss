@@ -21,7 +21,8 @@
                 background-color: $col-fondo-foot;
 
                 .contenedor-frase{
-                    width: 40%;
+                    padding-bottom: 10px;
+                    width: 100%;
 
                     .contenido-frase{
 
@@ -30,25 +31,12 @@
                             color: $col-titulo-grande;
                             font-size: $text-titulo-g;
                             font-weight: 800;
-                            @include animaciones (2s,1,ease-in-out,fade-in-left);
                             padding: 0px 40px;
                         }
                     }
                 }
                 .contenedor-img{
-                    padding-bottom: 2px;
-                    border-radius: 50% 0% 0% 25%;
-                    overflow: hidden;
-                    height: 300px;
-                    width: 60%;
-                    
-                    @include animaciones (2s,1,ease-in-out,fade-in-rigth);
-
-                    img{
-                        object-fit: cover;
-                        width:100%;
-                        height:100%;
-                    }
+                    display: none;
                 }
             }
             svg {
@@ -68,7 +56,7 @@
             p{
                 color: $text-general;
                 margin: 0;
-                padding: 0px 40px;
+                padding: 0px 20px;
                 font-weight: 300;
                 font-size: $text-general;
             }
@@ -76,12 +64,12 @@
     }
 
     .contenido-objetivo{
-        margin: 20px 40px;
-        @include flex-r;
+        margin: 20px 10px;
+        @include flex-c;
         
         div{
-            padding: 0px 20px;
-            width: 50%;
+            padding: 20px 20px;
+            width: 100%;
             color: $col-text-general;
 
             h3{
@@ -96,9 +84,17 @@
     }
 
     .historia{
-        margin: 20px 40px;
+        margin: 20px 10px;
         
-        div{
+        .contenido-nuestra-historia{
+            display: grid;
+            grid-row-gap: 0px;
+            grid-column-gap: 0px;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+
             color: $col-text-general;
 
             h3{
@@ -109,9 +105,8 @@
                 font-size: $text-general;
                 font-weight: 300;
             }
-
-            div{
-                padding: 0px 50px;
+            .carousel-contenedor{
+                max-width: 500px;
             }
         }
     }
