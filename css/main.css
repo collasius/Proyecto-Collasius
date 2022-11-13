@@ -7097,6 +7097,9 @@ body {
   border: 0;
   margin: 0; }
 
+main {
+  min-height: 83vh; }
+
 .menu-principal {
   position: fixed;
   z-index: 12;
@@ -7168,9 +7171,6 @@ body {
           margin: 10px 80px; }
 
 /* ESTILADO MAIN INICIO*/
-main {
-  min-height: 83vh; }
-
 .contenido-principal {
   margin: 50px 0px 0px 0px;
   background-color: #dfdfdf; }
@@ -7594,6 +7594,7 @@ main {
     color: #848484;
     align-content: baseline; }
 
+/* Estilado Main Productos */
 .contenido-principal-productos {
   margin: 50px 0px 0px 0px; }
 

@@ -5,30 +5,11 @@
 @import "_mixin";
 
 
-body {
-    margin: 0;
-    padding: 0;
-    z-index: auto;
-    width: auto;
-}
-
-.oculto {
-    top: 0;
-    overflow: hidden;
-    height: 0px;
-    width: 0px;
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
+@import "_generales-estilado";
 
 @import "_nav-estilado";
 
 /* ESTILADO MAIN INICIO*/
-
-main {
-    min-height: 83vh;
-}
 
 .contenido-principal {
     margin: 50px 0px 0px 0px;
@@ -123,77 +104,9 @@ main {
 
 @import "_footer-estilado";
 
-// /* Estilado Main Productos */
+/* Estilado Main Productos */
 
-
-.contenido-principal-productos {
-    margin: 50px 0px 0px 0px;
-
-}
-
-.seccion-principal-productos {
-    margin: 20px 0px;
-    padding: 15px 0px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: space-around;
-}
-
-.contenido-seccion-productos{
-    margin: 0px 30px;
-    padding: 0px;
-}
-.contenido-seccion-productos-1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-.contenedor-contenido-seccion-producto {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-}
-.contenedor-contenido-seccion-producto h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    filter:opacity(80%);
-    margin: 0px;
-    position: absolute;
-    color: white;
-    z-index: 3;
-    bottom: 8px;
-    left: 8px;
-}
-.contenedor-contenido-seccion-producto p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    text-align: justify;
-    margin: 5px 15px 0px 15px;
-    max-width: 300px;
-    order: 2;
-}
-
-.producto-imagen{
-    margin: 10px 10px;
-    position: relative;
-    order: 1;
-}
-
-.producto-imagen img{
-    box-shadow: 5px 5px 10px rgb(90, 90, 90) ;
-    border-radius: 50px 20px;
-}
-
+@import "_productos-estilado";
 
 /* Estilado Main Nosotros */
 @import "_nosotros-estilado";

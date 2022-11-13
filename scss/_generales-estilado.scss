@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    z-index: auto;
+    width: auto;
+}
+
+.oculto {
+    top: 0;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+main {
+    min-height: 83vh;
+}
