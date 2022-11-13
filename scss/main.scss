@@ -196,32 +196,7 @@ main {
 
 
 /* Estilado Main Nosotros */
-
-.contenido-principal-nosotros {
-    margin: 50px 0px 0px 0px;
-}
-
-.contenedor-contenido-nosotros{
-    margin: 50px 10px;
-}
-
-.contenedor-contenido-nosotros h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    text-align: center;
-}
-
-.contenedor-contenido-nosotros p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    padding: 0px 20px;
-}
-
-.contenido-nosotros {
-    padding: 20px 0px;
-}
+@import "_nosotros-estilado";
 
 /* Estilado Contacto */
 @import "_contacto-estilado";

@@ -7657,30 +7657,98 @@ main {
 
 /* Estilado Main Nosotros */
 .contenido-principal-nosotros {
+  font-family: "Roboto", sans-serif;
   margin: 50px 0px 0px 0px; }
-
-.contenedor-contenido-nosotros {
-  margin: 50px 10px; }
-
-.contenedor-contenido-nosotros h3, .contenedor-contenido-nosotros .h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 25px;
-  text-align: center; }
-
-.contenedor-contenido-nosotros p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  padding: 0px 20px; }
-
-.contenido-nosotros {
-  padding: 20px 0px; }
+  .contenido-principal-nosotros .contenedor-contenido-frase {
+    margin-bottom: 60px; }
+    .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      position: relative;
+      width: 100fr;
+      overflow: hidden; }
+      .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f7f7f7; }
+        .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase {
+          width: 40%; }
+          .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase .contenido-frase h3, .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase .contenido-frase .h3 {
+            text-align: center;
+            color: #5f5f5f;
+            font-size: 30px;
+            font-weight: 800;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: fade-in-left;
+            padding: 0px 40px; }
+        .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-img {
+          padding-bottom: 2px;
+          border-radius: 50% 0% 0% 25%;
+          overflow: hidden;
+          height: 300px;
+          width: 60%;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+          animation-timing-function: ease-in-out;
+          animation-name: fade-in-rigth; }
+          .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-img img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%; }
+      .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros svg {
+        width: 100%;
+        position: absolute;
+        z-index: 3; }
+        .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros svg path {
+          fill: white;
+          stroke: white; }
+    .contenido-principal-nosotros .contenedor-contenido-frase .presentacion {
+      margin: 20px 0px; }
+      .contenido-principal-nosotros .contenedor-contenido-frase .presentacion p {
+        color: 16px;
+        margin: 0;
+        padding: 0px 40px;
+        font-weight: 300;
+        font-size: 16px; }
+  .contenido-principal-nosotros .contenido-objetivo {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .contenido-principal-nosotros .contenido-objetivo div {
+      padding: 0px 20px;
+      width: 50%;
+      color: #555555; }
+      .contenido-principal-nosotros .contenido-objetivo div h3, .contenido-principal-nosotros .contenido-objetivo div .h3 {
+        text-align: center;
+        font-size: 20px; }
+      .contenido-principal-nosotros .contenido-objetivo div p {
+        font-size: 16px;
+        font-weight: 300; }
+  .contenido-principal-nosotros .historia {
+    margin: 20px 40px; }
+    .contenido-principal-nosotros .historia div {
+      color: #555555; }
+      .contenido-principal-nosotros .historia div h3, .contenido-principal-nosotros .historia div .h3 {
+        font-size: 30px; }
+      .contenido-principal-nosotros .historia div p {
+        font-size: 16px;
+        font-weight: 300; }
+      .contenido-principal-nosotros .historia div div {
+        padding: 0px 50px; }
 
 /* Estilado Contacto */
 .titulos, .contenido-principal-contacto .contenedor-contenido-mapa .titulo-contacto, .contenido-principal-contacto .contenedor-redes .titulo-redes, .contenido-principal-contacto .contenedor-consultas .titulo-atencion {
   margin-top: 20px;
-  box-shadow: 0px 20px 10px #d5d5d5;
+  box-shadow: 0px 10px 10px #8c8c8c;
   color: #5f5f5f;
   font-weight: 800;
   font-size: 30px;
@@ -7774,7 +7842,7 @@ main {
     padding: 5px;
     font-size: 30px;
     color: #5f5f5f;
-    box-shadow: 0px 20px 10px #d5d5d5;
+    box-shadow: 0px 10px 10px #8c8c8c;
     background-color: #ededed; }
   .contenido-principal-soporte section {
     margin: 80px 20px 0px 20px;
@@ -7892,10 +7960,6 @@ main {
   .diseno-melphone-blanco {
     transform: none; }
   /* nosotros */
-  .contenedor-contenido-nosotros {
-    padding: 0px 10px; }
-  .contenedor-contenido-nosotros p {
-    font-size: 15px; }
   /* contacto */
   .contenido-mapa {
     padding: 5px 50px; }
@@ -7924,14 +7988,10 @@ main {
       line-height: 50px;
       margin: 0; }
   /* nosotros */
-  .contenedor-contenido-nosotros {
-    padding: 0px 40px; }
-  .contenido-nosotros h3, .contenido-nosotros .h3 {
-    text-align: left; }
   /* contacto */
   .titulos, .contenido-principal-contacto .contenedor-contenido-mapa .titulo-contacto, .contenido-principal-contacto .contenedor-redes .titulo-redes, .contenido-principal-contacto .contenedor-consultas .titulo-atencion {
     margin-top: 20px;
-    box-shadow: 0px 20px 10px #d5d5d5;
+    box-shadow: 0px 10px 10px #8c8c8c;
     color: #5f5f5f;
     font-weight: 800;
     font-size: 45px;
@@ -8203,3 +8263,23 @@ body:has(.redes:hover, .contenido-principal-contacto .contenedor-redes .contenid
   100% {
     transform: scaleX(1) translateY(-80px);
     z-index: 3; } }
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fade-in-rigth {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
