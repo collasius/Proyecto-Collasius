@@ -46,3 +46,20 @@
     background: rgb(255,8,0);
     background: linear-gradient(212deg, rgba(255,8,0,1) 0%, rgba(196,48,43,1) 50%, rgba(112,4,0,1) 100%);
 }
+
+// productos
+
+@mixin producto-blanco {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 26%, rgba(222,222,222,1) 88%, rgba(199,199,199,1) 100%);
+}
+
+@mixin producto-negro {
+    background: rgb(56,56,56);
+    background: radial-gradient(circle, rgba(56,56,56,1) 0%, rgba(9,9,9,1) 85%, rgba(0,0,0,1) 100%);  
+}
+
+@mixin producto-verde {
+    background: rgb(148,224,214);
+    background: radial-gradient(circle, rgba(148,224,214,1) 0%, rgba(77,175,151,1) 74%, rgba(59,130,113,1) 100%);
+}

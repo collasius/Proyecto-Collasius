@@ -6,3 +6,73 @@
 #check:checked ~ .contenedor-nav{
     transform: translatex(0px);
     }
+
+
+
+
+// cambio de color
+#melphone-blanco:checked ~ * .boton-mel-blanco {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+#melphone-negro:checked ~ * .boton-mel-negro {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+#melphone-verde:checked ~ * .boton-mel-verde {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+
+
+#melphone-negro:checked ~ * .text-negro {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+#melphone-blanco:checked ~ * .text-blanco {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+#melphone-verde:checked ~ * .text-verde {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+
+#melphone-negro:checked ~ * .frontal-negro {
+        transform: translateY(-100%);
+        opacity: 100%;
+    }
+#melphone-blanco:checked ~ * .frontal-blanco {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+#melphone-verde:checked ~ * .frontal-verde {
+        transform: translateY(-200%);
+        opacity: 100%;
+    }
+
+ #melphone-negro:checked ~ * .perfil-negro {
+        transform: translateY(-100%);
+        opacity: 100%;
+    }
+#melphone-blanco:checked ~ * .perfil-blanco {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+#melphone-verde:checked ~ * .perfil-verde {
+        transform: translateY(-200%);
+        opacity: 100%;
+    }
+
+#melphone-negro:checked ~ * .trasero-negro {
+        transform: translateY(-100%);
+        opacity: 100%;
+    }
+#melphone-blanco:checked ~ * .trasero-blanco {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+#melphone-verde:checked ~ * .trasero-verde {
+        transform: translateY(-200%);
+        opacity: 100%;
+    }

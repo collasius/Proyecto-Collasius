@@ -1,6 +1,170 @@
 .contenido-principal-productos {
+    font-family: $letra;
     margin: 50px 0px 0px 0px;
 
+    .contenedor-melphone-colores{
+        .melphone-productos{
+            @include flex-c;
+            align-items: center;
+            overflow: hidden;
+            max-height: 800px;
+
+            h3{
+                font-size: $text-titulo-xg;
+                color:$col-titulo-grande;
+            }
+
+            input {
+                display: none
+            }
+
+            .imagenes-melphone{
+                @include flex-r;
+                flex-wrap: nowrap;
+
+                .melphone-p{
+                    overflow: hidden;
+                    background-color: $col-fondo-foot;
+                    border-radius: 20px;
+                    padding: 20px 20px 0px 20px;
+                    margin: 10px;
+                    position: relative;
+
+                    img{
+                        object-fit:contain;
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                .item-animacion{
+                    @include transiciones (1s);
+                    transform: translateY(300%);
+                    transition-timing-function: ease-in-out;
+                    opacity: 0%;
+                }
+                .melphone-texto{
+                    @extend .melphone-p;
+                    font-size: $text-titulo;
+                    color: $col-text-general;
+                    text-align: center;
+                    height: 65px;
+                    width: 200px;
+                    div{
+                        position: absolute;
+                        h4{
+                            font-weight: 500;
+                        }
+                    }
+                    .text-blanco{
+                        @extend.item-animacion;
+                        color: $col-producto-blanco;
+                    }
+                    .text-verde{
+                        color: $col-producto-verde;
+                        @extend.item-animacion;
+                    }
+                    .text-negro{
+                        color:$col-producto-negro;
+                        @extend.item-animacion;
+                    }
+                }
+                .melphone-frontal{
+                    @extend .melphone-p;
+                    max-height: 500px;
+                    max-width: 300px;
+
+                    .frontal-blanco{
+                        @extend.item-animacion;
+                    }
+                    .frontal-verde{
+                        @extend.item-animacion;
+                    }
+                    .frontal-negro{
+                        @extend.item-animacion;
+                    }
+                }
+                .melphone-perfil{
+                    @extend .melphone-p;
+                    max-height: 500px;
+                    max-width: 200px;
+
+                    .perfil-blanco{
+                        @extend.item-animacion;
+                    }
+                    .perfil-verde{
+                        @extend.item-animacion;
+                    }
+                    .perfil-negro{
+                        @extend.item-animacion;
+                    }
+                }
+                .melphone-trasero{
+                    @extend .melphone-p;
+                    max-height: 200px;
+                    max-width: 500px;
+
+                    .trasero-blanco{
+                        @extend.item-animacion;
+                    }
+                    .trasero-verde{
+                        @extend.item-animacion;
+                    }
+                    .trasero-negro{
+                        @extend.item-animacion;
+                    }
+                }
+
+                .precio-melphone{
+                    @extend .melphone-p;
+                    text-align: center;
+                    height: 65px;
+                    width: 200px;
+
+                    p{
+                        color:$col-text-general;
+                        font-size: $text-titulo-g;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .producto-melphone{
+                @include flex-c;
+                align-items: center;
+                z-index: 6;
+                .botones-colores-melphones{
+                    .boton{
+                        margin: 10px 10px;
+                        cursor: pointer;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        @include transiciones (0.5s);
+                    }
+                    .boton-mel-blanco{
+                        @extend .boton;
+                        @include producto-blanco;
+                    }
+                    .boton-mel-negro{
+                        @extend .boton;
+                        @include producto-negro;
+                    }
+                    .boton-mel-verde{
+                        @extend .boton;
+                        @include producto-verde;
+                    }
+                }
+                .links-compra{
+                    a{
+                        text-decoration: none;
+                        font-weight: 300;
+                        padding: 0px 10px;
+                        color:$col-link;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .seccion-principal-productos {
