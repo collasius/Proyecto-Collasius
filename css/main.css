@@ -7603,26 +7603,28 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    overflow: hidden;
-    max-height: 800px; }
+    overflow: hidden; }
     .contenido-principal-productos .contenedor-melphone-colores .melphone-productos h3, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .h3 {
       font-size: 100px;
       color: #5f5f5f; }
     .contenido-principal-productos .contenedor-melphone-colores .melphone-productos input {
       display: none; }
     .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone {
+      width: 100%;
+      max-height: 450px;
       display: grid;
-      grid-template-areas: "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero melphone-trasero" "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero melphone-trasero" "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto" "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto" "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto" "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto" "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto";
-      flex-wrap: nowrap; }
+      grid-template-areas: "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto ";
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-p, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone {
         overflow: hidden;
         background-color: #f7f7f7;
         border-radius: 20px;
-        padding: 10px 10px 0px 10px;
+        padding: 5px 5px 0px 5px;
         margin: 10px;
         position: relative; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-p img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone img {
           object-fit: contain;
+          object-position: bottom;
           width: 100%;
           height: 100%; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .item-animacion, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-negro {
@@ -7633,41 +7635,56 @@ main {
         opacity: 0%; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto {
         grid-area: melphone-texto;
-        color: #555555;
-        text-align: center; }
+        color: #555555; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div {
           position: absolute; }
           .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div h4, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div .h4 {
             font-size: 40px;
-            font-weight: 500; }
+            font-weight: 500;
+            text-align: center;
+            line-height: 140px; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-blanco {
+          object-fit: contain;
+          width: 100%;
+          height: 100%;
           color: #b9b9b9; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-verde {
+          object-fit: contain;
+          width: 100%;
+          height: 100%;
           color: rgba(75, 171, 139, 0.891); }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-negro {
+          object-fit: contain;
+          width: 100%;
+          height: 100%;
           color: black; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal {
-        grid-area: melphone-frontal;
-        max-height: 500px;
-        max-width: 400px; }
+        grid-area: melphone-frontal; }
+        .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-blanco {
+          transition-delay: 0.05s; }
+        .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-verde {
+          transition-delay: 0.05s; }
+        .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-negro {
+          transition-delay: 0.05s; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil {
-        grid-area: melphone-perfil;
-        max-height: 400px;
-        max-width: 200px; }
+        grid-area: melphone-perfil; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero {
-        grid-area: melphone-trasero;
-        max-height: 400px;
-        max-width: 500px; }
+        grid-area: melphone-trasero; }
+        .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-blanco {
+          transition-delay: 0.1s; }
+        .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-verde {
+          transition-delay: 0.1s; }
+        .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-negro {
+          transition-delay: 0.1s; }
       .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone {
         grid-area: melphone-precio;
-        text-align: center;
-        height: 80px;
-        width: 200px; }
+        text-align: center; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone p {
-          line-height: 60px;
           color: #555555;
           font-size: 30px;
-          font-weight: 500; }
+          font-weight: 500;
+          line-height: 90px;
+          margin: 0; }
     .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .producto-melphone {
       display: flex;
       flex-direction: column;
