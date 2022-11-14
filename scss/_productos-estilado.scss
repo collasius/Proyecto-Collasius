@@ -19,14 +19,23 @@
             }
 
             .imagenes-melphone{
-                @include flex-r;
+                display: grid;
+                grid-template-areas: 
+                "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero melphone-trasero"
+                "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero melphone-trasero"
+                "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto"
+                "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto"
+                "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto"
+                "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto"
+                "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto melphone-texto"
+            ;
                 flex-wrap: nowrap;
 
                 .melphone-p{
                     overflow: hidden;
                     background-color: $col-fondo-foot;
                     border-radius: 20px;
-                    padding: 20px 20px 0px 20px;
+                    padding: 10px 10px 0px 10px;
                     margin: 10px;
                     position: relative;
 
@@ -43,15 +52,14 @@
                     opacity: 0%;
                 }
                 .melphone-texto{
+                    grid-area: melphone-texto;
                     @extend .melphone-p;
-                    font-size: $text-titulo;
                     color: $col-text-general;
                     text-align: center;
-                    height: 65px;
-                    width: 200px;
                     div{
                         position: absolute;
                         h4{
+                            font-size: 40px;
                             font-weight: 500;
                         }
                     }
@@ -69,9 +77,10 @@
                     }
                 }
                 .melphone-frontal{
+                    grid-area: melphone-frontal;
                     @extend .melphone-p;
                     max-height: 500px;
-                    max-width: 300px;
+                    max-width: 400px;
 
                     .frontal-blanco{
                         @extend.item-animacion;
@@ -84,8 +93,9 @@
                     }
                 }
                 .melphone-perfil{
+                    grid-area: melphone-perfil;
                     @extend .melphone-p;
-                    max-height: 500px;
+                    max-height: 400px;
                     max-width: 200px;
 
                     .perfil-blanco{
@@ -99,8 +109,9 @@
                     }
                 }
                 .melphone-trasero{
+                    grid-area: melphone-trasero;
                     @extend .melphone-p;
-                    max-height: 200px;
+                    max-height: 400px;
                     max-width: 500px;
 
                     .trasero-blanco{
@@ -115,12 +126,14 @@
                 }
 
                 .precio-melphone{
+                    grid-area: melphone-precio;
                     @extend .melphone-p;
                     text-align: center;
-                    height: 65px;
+                    height: 80px;
                     width: 200px;
 
                     p{
+                        line-height: 60px;
                         color:$col-text-general;
                         font-size: $text-titulo-g;
                         font-weight: 500;
