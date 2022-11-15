@@ -11,6 +11,8 @@
 
 
 // cambio de color
+
+// melphone
 #melphone-blanco:checked ~ * .boton-mel-blanco {
     border: 4px solid $col-bord;
     border-style: inset;
@@ -76,3 +78,93 @@
         transform: translateY(-200%);
         opacity: 100%;
     }
+
+
+#melphone-negro:checked ~ * .precio-melphone p {
+    color: $col-producto-negro;
+    }
+#melphone-blanco:checked ~ * .precio-melphone p {
+    color: $col-producto-blanco;
+
+    }
+#melphone-verde:checked ~ * .precio-melphone p {
+    color: $col-producto-verde;
+    }
+
+
+// melwatch
+#melwatch-rojo:checked ~ * .precio-melwatch p {
+    color: $col-producto-rojo;
+    }
+#melwatch-azul:checked ~ * .precio-melwatch p {
+    color: $col-producto-azul;
+    }
+
+
+#melwatch-rojo:checked ~ * .boton-melwatch-rojo {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+#melwatch-azul:checked ~ * .boton-melwatch-azul {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+
+#melwatch-rojo:checked ~ * .melwatch-frontal-rojo {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+#melwatch-azul:checked ~ * .melwatch-frontal-azul {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+#melwatch-rojo:checked ~ * .melwatch-perfil-rojo {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+#melwatch-azul:checked ~ * .melwatch-perfil-azul {
+    transform: translateX(-100%);
+    opacity: 100%;
+}
+
+#melwatch-rojo:checked ~ * .text-rojo-melwatch {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+#melwatch-azul:checked ~ * .text-azul-melwatch{
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+
+// banda melwatch
+
+#melwatch-banda-blanca:checked ~ * .boton-melwatch-blanco {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+#melwatch-banda-negra:checked ~ * .boton-melwatch-negro {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+
+#melwatch-banda-blanca:checked ~ * .text-blanco-band {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+#melwatch-banda-negra:checked ~ * .text-negro-band {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+#melwatch-banda-blanca:checked ~ * .banda-blanco {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+#melwatch-banda-negra:checked ~ * .banda-negro {
+    transform: translateX(-100%);
+    opacity: 100%;
+}

@@ -63,3 +63,13 @@
     background: rgb(148,224,214);
     background: radial-gradient(circle, rgba(148,224,214,1) 0%, rgba(77,175,151,1) 74%, rgba(59,130,113,1) 100%);
 }
+
+@mixin producto-rojo {
+    background: rgb(255,10,10);
+    background: radial-gradient(circle, rgba(255,10,10,1) 0%, rgba(227,0,0,1) 74%, rgba(175,0,0,1) 100%);
+}
+
+@mixin producto-azul {
+    background: rgb(95,109,154);
+    background: radial-gradient(circle, rgba(95,109,154,1) 0%, rgba(71,83,122,1) 61%, rgba(33,49,99,1) 100%);
+}

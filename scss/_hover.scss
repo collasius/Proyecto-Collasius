@@ -16,6 +16,16 @@
     text-decoration:underline;
 }
 
+// producto
+
+.boton:hover{
+    transform: scale(1.2);
+}
+.link-compra:hover{
+    text-decoration:underline;
+    transform: scale(1.1);
+    color: $col-link-hover;
+}
 
 //contacto
 
