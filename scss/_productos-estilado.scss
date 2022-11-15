@@ -15,6 +15,14 @@
     color:$col-link;
     @include transiciones (0.2s);
 }
+.link-compra-c{
+    text-decoration: none;
+    font-size: $text-general;
+    font-weight: 300;
+    padding: 0px 10px;
+    color:$col-link-c;
+    @include transiciones (0.2s);
+}
 
 .titulo-producto{
     font-size: $text-titulo-xg;
@@ -37,6 +45,18 @@
     }
 }
 
+.item-animacion-r{
+    @include transiciones (1s);
+    transform: translateX(200%);
+    transition-timing-function: ease-in-out;
+    opacity: 0%;
+}
+.item-animacion-l{
+    @include transiciones (1s);
+    transform: translateX(-200%);
+    transition-timing-function: ease-in-out;
+    opacity: 0%;
+}
 
 
 
@@ -213,6 +233,154 @@
 
     }
 
+    .contenedor-mlbook-colores{
+        background-color: rgb(18, 18, 18);
+        margin: 0px 0px 150px 0px;
+        padding: 150px 40px 150px 40px;
+
+        .mlbook-productos{
+            h3{
+                @extend .titulo-producto;
+                color: rgba(255, 255, 255, 0.799);
+            }
+
+            input{
+                display: none
+            }
+            @include flex-c;
+            align-items: center;
+            overflow: hidden;
+
+            .imagenes-mlbook{
+                width: 100%;
+                max-height: 450px;
+                display: grid;
+                grid-template-areas: 
+                    "mlbook-texto mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-texto mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                ;
+    
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+                .item-animacion{
+                    @include transiciones (1s);
+                    transform: translateY(300%);
+                    transition-timing-function: ease-in-out;
+                    opacity: 0%;
+                }
+
+                .mlbook-texto{
+                    grid-area: mlbook-texto;
+                    @extend .melphone-p;
+                    background-color: black;
+                    color: white;
+                    div{
+                        position: absolute;
+                        h4{
+                            font-size: 30px;
+                            font-weight: 500;
+                            text-align: center;
+                            line-height: 90px;
+                        }
+                    }
+                    .text-mlbook-amarillo{
+                        position: absolute;
+                        object-fit:contain;
+                        width:100%;
+                        height:100%;
+                        @extend.item-animacion-l;
+                        color: $col-producto-amarillo;
+                    }
+                    .text-mlbook-rosa{
+                        position: relative;
+                        object-fit:contain;
+                        width:100%;
+                        height:100%;
+                        color: $col-producto-rosa;
+                        @extend.item-animacion-r;
+                    }
+                }
+
+                .mlbook-frontal{
+                    grid-area: mlbook-frontal;
+                    @extend .melphone-p;
+                    background-color: black;
+
+                    .frontal-mlbook-amarillo{
+                        @extend.item-animacion-l;
+                        position: absolute
+                    }
+                    .frontal-mlbook-rosa{
+                        position: relative;
+                        @extend.item-animacion-r;
+                    }
+                }
+
+                .mlbook-superior{
+                    grid-area: mlbook-superior;
+                    @extend .melphone-p;
+                    background-color: black;
+
+                    .superior-mlbook-amarillo{
+                        @extend.item-animacion-l;
+                        position: absolute
+                    }
+                    .superior-mlbook-rosa{
+                        @extend.item-animacion-r;
+                        position: relative;
+                    }
+                }
+
+                .precio-mlbook{
+                    grid-area: mlbook-precio;
+                    @extend .melphone-p;
+                    text-align: center;
+                    background-color: black;
+
+                    p{
+                        color:white;
+                        font-size: $text-titulo-g;
+                        font-weight: 800;
+                        line-height: 90px;
+                        margin: 0;
+                        @include transiciones (1s);
+                    }
+                }
+            }
+
+            .producto-mlbook{
+                @include flex-c;
+                align-items: center;
+                z-index: 6;
+                .botones-colores-mlbooks{
+                    .boton-mlbook-amarillo{
+                        @extend .boton;
+                        @include producto-amarilo;
+                    }
+                    .boton-mlbook-rosa{
+                        @extend .boton;
+                        @include producto-rosa;
+                    }
+                }
+                .links-compra-mlbook{
+                    .sumar-carrito{
+                        @extend .link-compra-c;
+                    }
+                    .comprar-producto{
+                        @extend .link-compra-c;
+                    }
+                }
+            }
+        }
+    }
+
     .contenedor-melwatch-colores{
         margin: 0px 40px 150px 40px;
 
@@ -246,20 +414,6 @@
                 ;
 
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-
-                .item-animacion-r{
-                    @include transiciones (1s);
-                    transform: translateX(200%);
-                    transition-timing-function: ease-in-out;
-                    opacity: 0%;
-                }
-                .item-animacion-l{
-                    @include transiciones (1s);
-                    transform: translateX(-200%);
-                    transition-timing-function: ease-in-out;
-                    opacity: 0%;
-                }
 
                 .melwatch-texto{
                     grid-area: melwatch-text;

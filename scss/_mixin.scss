@@ -73,3 +73,13 @@
     background: rgb(95,109,154);
     background: radial-gradient(circle, rgba(95,109,154,1) 0%, rgba(71,83,122,1) 61%, rgba(33,49,99,1) 100%);
 }
+
+@mixin producto-amarilo {
+    background: rgb(255,214,0);
+    background: radial-gradient(circle, rgba(255,214,0,1) 0%, rgba(203,153,0,1) 77%, rgba(180,126,0,1) 100%);
+}
+
+@mixin producto-rosa {
+    background: rgb(182,104,185);
+    background: radial-gradient(circle, rgba(182,104,185,1) 0%, rgba(154,76,156,1) 77%, rgba(116,0,88,1) 100%);
+}

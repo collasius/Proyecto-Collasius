@@ -168,3 +168,48 @@
     transform: translateX(-100%);
     opacity: 100%;
 }
+
+// ml-book
+
+#mlbook-amarillo:checked ~ * .boton-mlbook-amarillo {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+#mlbook-rosa:checked ~ * .boton-mlbook-rosa {
+    border: 4px solid $col-bord;
+    border-style: inset;
+}
+
+#mlbook-amarillo:checked ~ * .precio-mlbook p {
+    color: $col-producto-amarillo;
+}
+#mlbook-rosa:checked ~ * .precio-mlbook p {
+    color: $col-producto-rosa;
+}
+
+#mlbook-amarillo:checked ~ * .text-mlbook-amarillo {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+#mlbook-rosa:checked ~ * .text-mlbook-rosa{
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+#mlbook-amarillo:checked ~ * .frontal-mlbook-amarillo {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+#mlbook-rosa:checked ~ * .frontal-mlbook-rosa{
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+#mlbook-amarillo:checked ~ * .superior-mlbook-amarillo {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+#mlbook-rosa:checked ~ * .superior-mlbook-rosa{
+    transform: translateX(0px);
+    opacity: 100%;
+}

@@ -27,6 +27,11 @@
     color: $col-link-hover;
 }
 
+.link-compra-c:hover{
+    text-decoration:underline;
+    transform: scale(1.1);
+    color: $col-link-hover-c;
+}
 //contacto
 
 body:has(.redes:hover) .redes:not(:hover){
