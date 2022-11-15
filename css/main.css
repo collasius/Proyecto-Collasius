@@ -7623,7 +7623,7 @@ main {
   transition-duration: 0.2s; }
 
 .titulo-producto, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos h3, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .h3, .contenido-principal-productos .contenedor-melwatch-colores h3, .contenido-principal-productos .contenedor-melwatch-colores .h3 {
-  font-size: 100px;
+  font-size: 50px;
   color: #5f5f5f; }
 
 .melphone-p, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-frontal, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-superior, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .precio-melwatch {
@@ -7657,7 +7657,7 @@ main {
   font-family: "Roboto", sans-serif;
   margin: 140px 0px 0px 0px; }
   .contenido-principal-productos .contenedor-melphone-colores {
-    margin: 0px 40px 150px 40px; }
+    margin: 0px 0px 150px 0px; }
     .contenido-principal-productos .contenedor-melphone-colores .melphone-productos {
       display: flex;
       flex-direction: column;
@@ -7670,7 +7670,7 @@ main {
         width: 100%;
         max-height: 450px;
         display: grid;
-        grid-template-areas: "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto ";
+        grid-template-areas: "melphone-perfil melphone-perfil melphone-perfil melphone-precio melphone-precio " "melphone-perfil melphone-perfil melphone-perfil melphone-frontal melphone-frontal " "melphone-perfil melphone-perfil melphone-perfil melphone-frontal melphone-frontal " "melphone-trasero melphone-trasero melphone-trasero melphone-frontal melphone-frontal " "melphone-trasero melphone-trasero melphone-trasero melphone-frontal melphone-frontal " "melphone-trasero melphone-trasero melphone-trasero melphone-frontal melphone-frontal " "melphone-texto melphone-texto melphone-texto melphone-texto melphone-texto ";
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .item-animacion, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-negro {
           transition-property: all;
@@ -7680,14 +7680,15 @@ main {
           opacity: 0%; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto {
           grid-area: melphone-texto;
+          padding: 0;
           color: #555555; }
           .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div {
             position: absolute; }
             .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div h4, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div .h4 {
-              font-size: 40px;
-              font-weight: 500;
+              font-size: 30px;
+              font-weight: 800;
               text-align: center;
-              line-height: 140px; }
+              line-height: 40px; }
           .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-blanco {
             object-fit: contain;
             width: 100%;
@@ -7723,12 +7724,13 @@ main {
             transition-delay: 0.1s; }
         .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone {
           grid-area: melphone-precio;
+          padding: 0;
           text-align: center; }
           .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone p {
             color: #555555;
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 800;
-            line-height: 90px;
+            line-height: 40px;
             margin: 0;
             transition-property: all;
             transition-duration: 1s; }
@@ -7750,7 +7752,7 @@ main {
   .contenido-principal-productos .contenedor-mlbook-colores {
     background-color: #121212;
     margin: 0px 0px 150px 0px;
-    padding: 150px 40px 150px 40px; }
+    padding: 150px 0px 150px 0px; }
     .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos {
       display: flex;
       flex-direction: column;
@@ -7763,9 +7765,9 @@ main {
         display: none; }
       .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook {
         width: 100%;
-        max-height: 450px;
+        max-height: 550px;
         display: grid;
-        grid-template-areas: "mlbook-texto mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-texto mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal";
+        grid-template-areas: "mlbook-precio mlbook-precio mlbook-precio mlbook-precio mlbook-precio" "mlbook-superior mlbook-superior mlbook-superior mlbook-superior mlbook-superior" "mlbook-superior mlbook-superior mlbook-superior mlbook-superior mlbook-superior" "mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-texto mlbook-texto mlbook-texto mlbook-texto mlbook-texto";
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
         .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .item-animacion, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .text-blanco, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .text-verde, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .text-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .text-negro, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .frontal-blanco, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .frontal-verde, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .frontal-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-frontal .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .frontal-negro, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .perfil-blanco, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .perfil-verde, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .perfil-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-perfil .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .perfil-negro, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-blanco, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .trasero-blanco, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-verde, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .trasero-verde, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .trasero-negro, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-trasero .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .trasero-negro {
           transition-property: all;
@@ -7783,7 +7785,7 @@ main {
               font-size: 30px;
               font-weight: 500;
               text-align: center;
-              line-height: 90px; }
+              line-height: 40px; }
           .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto .text-mlbook-amarillo {
             position: absolute;
             object-fit: contain;
@@ -7813,12 +7815,13 @@ main {
         .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook {
           grid-area: mlbook-precio;
           text-align: center;
-          background-color: black; }
+          background-color: black;
+          padding: 0; }
           .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook p {
             color: white;
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 800;
-            line-height: 90px;
+            line-height: 50px;
             margin: 0;
             transition-property: all;
             transition-duration: 1s; }
@@ -7835,7 +7838,7 @@ main {
           background: #b668b9;
           background: radial-gradient(circle, #b668b9 0%, #9a4c9c 77%, #740058 100%); }
   .contenido-principal-productos .contenedor-melwatch-colores {
-    margin: 0px 40px 150px 40px; }
+    margin: 0px 0px 150px 0px; }
     .contenido-principal-productos .contenedor-melwatch-colores input {
       display: none; }
     .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos {
@@ -7846,9 +7849,9 @@ main {
       overflow: hidden; }
       .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch {
         width: 100%;
-        max-height: 500px;
+        max-height: 450px;
         display: grid;
-        grid-template-areas: "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band " "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band " "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text " "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil ";
+        grid-template-areas: "melwatch-band melwatch-band melwatch-precio melwatch-precio melwatch-precio " "melwatch-band melwatch-band melwatch-precio melwatch-precio melwatch-precio " "melwatch-band melwatch-band melwatch-text-band melwatch-text-band melwatch-text-band  " "melwatch-band melwatch-band melwatch-text-band melwatch-text-band melwatch-text-band  " "melwatch-perfil melwatch-perfil melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-perfil melwatch-perfil melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-perfil melwatch-perfil melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-text melwatch-text melwatch-text melwatch-text melwatch-text ";
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
         .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto {
           grid-area: melwatch-text;
@@ -7856,10 +7859,11 @@ main {
           .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div {
             position: absolute; }
             .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div h4, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div .h4 {
-              font-size: 40px;
+              font-size: 30px;
               font-weight: 800;
               text-align: center;
-              line-height: 100px; }
+              line-height: 30px;
+              padding: 0; }
           .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto .text-rojo-melwatch {
             object-fit: contain;
             width: 100%;
@@ -7876,10 +7880,10 @@ main {
           .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div {
             position: absolute; }
             .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div h4, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div .h4 {
-              font-size: 40px;
-              font-weight: 500;
+              font-size: 30px;
+              font-weight: 800;
               text-align: center;
-              line-height: 100px; }
+              line-height: 90px; }
           .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto .text-blanco-band {
             object-fit: contain;
             width: 100%;
@@ -7932,8 +7936,10 @@ main {
                 height: 100%; }
               .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-banda-imagenes .banda-blanco {
                 position: relative;
-                transition-delay: 0.1s; }
+                transition-delay: 0.1s;
+                padding: 0px 10px; }
               .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-banda-imagenes .banda-negro {
+                padding: 0px 10px;
                 position: absolute;
                 transition-delay: 0.1s; }
             .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-frontal {
@@ -7947,9 +7953,9 @@ main {
               height: 100%; }
               .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-frontal img {
                 object-fit: contain;
-                width: 130%;
-                height: 130%;
-                max-width: 320px; }
+                width: 100%;
+                height: 100%;
+                max-width: 130px; }
               .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-frontal .melwatch-frontal-rojo {
                 transition-delay: 0.1s;
                 position: absolute; }
@@ -8289,6 +8295,71 @@ main {
     transform: none; }
   .diseno-melphone-blanco {
     transform: none; }
+  /* productos*/
+  .titulo-producto-rt, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos h3, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .h3, .contenido-principal-productos .contenedor-melwatch-colores h3, .contenido-principal-productos .contenedor-melwatch-colores .h3 {
+    font-size: 80px;
+    color: #5f5f5f; }
+  .melphone-p-rt, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto {
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    padding: 5px 5px 0px 5px;
+    margin: 10px;
+    position: relative; }
+    .melphone-p-rt img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone img, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto img, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook img, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto img, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto img {
+      object-fit: contain;
+      object-position: bottom;
+      width: 100%;
+      height: 100%; }
+  .contenido-principal-productos .contenedor-melphone-colores {
+    padding: 0px 40px 0px 40px; }
+    .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone {
+      grid-template-areas: "melphone-frontal melphone-frontal melphone-texto melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-texto melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-precio melphone-precio " "melphone-frontal melphone-frontal melphone-perfil melphone-precio melphone-precio "; }
+      .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div h4, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div .h4 {
+        font-size: 40px;
+        line-height: 90px; }
+      .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone p {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 90px; }
+  .contenido-principal-productos .contenedor-mlbook-colores {
+    padding: 150px 40px 150px 40px; }
+    .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .h3 {
+      color: rgba(255, 255, 255, 0.799); }
+    .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook {
+      max-height: 450px;
+      grid-template-areas: "mlbook-precio mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-precio mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-texto mlbook-texto mlbook-texto mlbook-texto mlbook-texto" "mlbook-texto mlbook-texto mlbook-texto mlbook-texto mlbook-texto"; }
+      .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto {
+        background-color: black; }
+        .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto div h4, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto div .h4 {
+          font-size: 30px;
+          line-height: 90px; }
+      .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook {
+        background-color: black; }
+        .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook p {
+          font-size: 30px;
+          font-weight: 800;
+          line-height: 90px; }
+  .contenido-principal-productos .contenedor-melwatch-colores {
+    padding: 0px 40px 0px 40px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch {
+      max-height: 500px;
+      grid-template-areas: "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band " "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band " "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text " "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil "; }
+      .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div h4, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div .h4 {
+        font-size: 40px;
+        line-height: 100px; }
+      .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div h4, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div .h4 {
+        font-size: 40px;
+        line-height: 100px; }
+      .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-banda-imagenes .banda-blanco {
+        padding: 0px 30px; }
+      .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-banda-imagenes .banda-negro {
+        padding: 0px 30px; }
+      .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-frontal img {
+        max-width: 310px; }
+      .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .precio-melwatch p {
+        font-weight: 800;
+        line-height: 90px; }
   /* nosotros */
   .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase {
     width: 40%; }
@@ -8350,6 +8421,63 @@ main {
       padding-left: 200px;
       line-height: 50px;
       margin: 0; }
+  /* productos*/
+  .titulo-producto-rl, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos h3, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .h3, .contenido-principal-productos .contenedor-melwatch-colores h3, .contenido-principal-productos .contenedor-melwatch-colores .h3 {
+    font-size: 100px;
+    color: #5f5f5f; }
+  .melphone-p-rl, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto {
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    padding: 5px 5px 0px 5px;
+    margin: 10px;
+    position: relative; }
+    .melphone-p-rl img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto img, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone img, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto img, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook img, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto img, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto img {
+      object-fit: contain;
+      object-position: bottom;
+      width: 100%;
+      height: 100%; }
+  .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone {
+    grid-template-areas: "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-precio melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto " "melphone-frontal melphone-frontal melphone-perfil melphone-texto melphone-texto "; }
+    .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div h4, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .melphone-texto div .h4 {
+      font-size: 40px;
+      line-height: 140px; }
+    .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .imagenes-melphone .precio-melphone p {
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 90px; }
+  .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .h3 {
+    color: rgba(255, 255, 255, 0.799); }
+  .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook {
+    grid-template-areas: "mlbook-texto mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-texto mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal" "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"; }
+    .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto {
+      background-color: black; }
+      .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto div h4, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .mlbook-texto div .h4 {
+        font-size: 30px;
+        line-height: 90px; }
+    .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook {
+      background-color: black; }
+      .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .imagenes-mlbook .precio-mlbook p {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 90px; }
+  .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch {
+    grid-template-areas: "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band " "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band " "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text " "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil " "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil "; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div h4, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-texto div .h4 {
+      font-size: 40px;
+      line-height: 100px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div h4, .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda-texto div .h4 {
+      font-size: 40px;
+      line-height: 100px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-banda-imagenes .banda-blanco {
+      padding: 0px 30px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-banda-imagenes .banda-negro {
+      padding: 0px 30px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .melwatch-banda .contenedor-melwatch-frontal .melwatch-frontal img {
+      max-width: 310px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .precio-melwatch p {
+      font-weight: 800;
+      line-height: 90px; }
   /* nosotros */
   .contenido-principal-nosotros .contenedor-contenido-frase .presentacion {
     margin: 40px 0px; }

@@ -1,0 +1,177 @@
+.titulo-producto-rt{
+    font-size: $text-titulo-gl;
+    color:$col-titulo-grande;
+}
+
+.melphone-p-rt{
+    overflow: hidden;
+    background-color: $col-fondo-foot;
+    border-radius: 20px;
+    padding: 5px 5px 0px 5px;
+    margin: 10px;
+    position: relative;
+
+    img{
+        object-fit:contain;
+        object-position: bottom;
+        width:100%;
+        height:100%;
+    }
+}
+
+
+
+.contenido-principal-productos {
+    .contenedor-melphone-colores{
+        padding: 0px 40px 0px 40px;
+        .melphone-productos{
+            h3{
+                @extend .titulo-producto-rt;
+            }
+            .imagenes-melphone{
+                grid-template-areas: 
+                "melphone-frontal melphone-frontal melphone-texto melphone-texto melphone-texto "
+                "melphone-frontal melphone-frontal melphone-texto melphone-texto melphone-texto "
+                "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero "
+                "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero "
+                "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero "
+                "melphone-frontal melphone-frontal melphone-perfil melphone-trasero melphone-trasero "
+                "melphone-frontal melphone-frontal melphone-perfil melphone-precio melphone-precio "
+                "melphone-frontal melphone-frontal melphone-perfil melphone-precio melphone-precio "
+                ;
+
+                .melphone-texto{
+                    @extend .melphone-p-rt;
+                    div{
+                        h4{
+                            font-size: 40px;
+                            line-height: 90px;
+                        }
+                    }
+                }
+
+                .precio-melphone{
+                    @extend .melphone-p-rt;
+
+                    p{
+                        font-size: $text-titulo-g;
+                        font-weight: 800;
+                        line-height: 90px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedor-mlbook-colores{
+        padding: 150px 40px 150px 40px;
+        .mlbook-productos{
+            h3{
+                @extend .titulo-producto-rt;
+                color: rgba(255, 255, 255, 0.799);
+            }
+
+            .imagenes-mlbook{
+                max-height: 450px;
+                grid-template-areas: 
+                    "mlbook-precio mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-precio mlbook-precio mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-superior mlbook-superior mlbook-frontal mlbook-frontal mlbook-frontal"
+                    "mlbook-texto mlbook-texto mlbook-texto mlbook-texto mlbook-texto"
+                    "mlbook-texto mlbook-texto mlbook-texto mlbook-texto mlbook-texto"
+                ;
+    
+                .mlbook-texto{
+                    @extend .melphone-p-rt;
+                    background-color: black;
+                    div{
+                        h4{
+                            font-size: 30px;
+                            line-height: 90px;
+                        }
+                    }
+                }
+                .precio-mlbook{
+                    @extend .melphone-p-rt;
+                    background-color: black;
+
+                    p{
+                        font-size: $text-titulo-g;
+                        font-weight: 800;
+                        line-height: 90px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedor-melwatch-colores{
+        padding: 0px 40px 0px 40px;
+        h3{
+            @extend .titulo-producto-rt;
+        }
+
+        .melwatch-productos{
+            .imagenes-melwatch{
+                max-height: 500px;
+                grid-template-areas: 
+                "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band "
+                "melwatch-band melwatch-band melwatch-precio melwatch-text-band melwatch-text-band "
+                "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text "
+                "melwatch-band melwatch-band melwatch-text melwatch-text melwatch-text "
+                "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil "
+                "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil "
+                "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil "
+                "melwatch-band melwatch-band melwatch-perfil melwatch-perfil melwatch-perfil "
+                ;
+
+                .melwatch-texto{
+                    @extend .melphone-p-rt;
+                    div{
+                        h4{
+                            font-size: 40px;
+                            line-height: 100px;
+                        }
+                    }
+                }
+                .melwatch-banda-texto{
+                    @extend .melphone-p-rt;
+                    div{
+                        h4{
+                            font-size: 40px;
+                            line-height: 100px;
+                        }
+                    }
+                }
+    
+                .melwatch-banda{
+                    .contenedor-melwatch-frontal{
+                        .melwatch-banda-imagenes{
+                            .banda-blanco{
+                                 padding: 0px 30px;
+                            }
+                            .banda-negro{
+                                padding: 0px 30px;
+                            }
+                        }
+                        .melwatch-frontal{
+                            img{
+                                max-width: 310px;
+                            }
+                        }
+                    }
+                }
+
+                .precio-melwatch{
+                    p{
+                        font-weight: 800;
+                        line-height: 90px;
+                    }
+                }
+            }
+        }
+    }
+}
