@@ -7983,7 +7983,7 @@ main {
           flex-direction: row;
           flex-wrap: wrap; }
           .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .producto-melwatch .contenedor-botones-melwatch .botones-colores-melwatchs {
-            margin: 0px 40px; }
+            margin: 0px 10px; }
             .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .producto-melwatch .contenedor-botones-melwatch .botones-colores-melwatchs .boton-melwatch-rojo {
               background: #ff0a0a;
               background: radial-gradient(circle, #ff0a0a 0%, #e30000 74%, #af0000 100%); }
@@ -7991,7 +7991,7 @@ main {
               background: #5f6d9a;
               background: radial-gradient(circle, #5f6d9a 0%, #47537a 61%, #213163 100%); }
           .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .producto-melwatch .contenedor-botones-melwatch .botones-colores-melwatchs-bandas {
-            margin: 0px 40px; }
+            margin: 0px 10px; }
             .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .producto-melwatch .contenedor-botones-melwatch .botones-colores-melwatchs-bandas .boton-melwatch-blanco {
               background: white;
               background: radial-gradient(circle, white 26%, #dedede 88%, #c7c7c7 100%); }
@@ -8360,6 +8360,10 @@ main {
       .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .imagenes-melwatch .precio-melwatch p {
         font-weight: 800;
         line-height: 90px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .producto-melwatch .contenedor-botones-melwatch .botones-colores-melwatchs {
+      margin: 0px 40px; }
+    .contenido-principal-productos .contenedor-melwatch-colores .melwatch-productos .producto-melwatch .contenedor-botones-melwatch .botones-colores-melwatchs-bandas {
+      margin: 0px 40px; }
   /* nosotros */
   .contenido-principal-nosotros .contenedor-contenido-frase .contenido-nosotros .c-contenedor-frase .contenedor-frase {
     width: 40%; }
