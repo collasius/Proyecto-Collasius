@@ -42,31 +42,65 @@
     
         /* inicio */
     // wrapper
-    .seccion-principal{
-        .wrapper {
-            font-size: $text-titulo-xg*2;
-            padding-top: 0px;
-            overflow: hidden;
-            .meli-1{
-                animation-duration: 3s;
-                animation-iteration-count: 1;
-                animation-timing-function: ease-in-out;
+    .contenido-principal{
+        .seccion-principal{
+            .wrapper {
+                font-size: $text-titulo-xg*2;
+                padding-top: 0px;
+                overflow: hidden;
+                .meli-1{
+                    animation-duration: 3s;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-in-out;
+                }
+                .meli-2{
+                    animation-duration: 3s;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-in-out;
+                }
             }
-            .meli-2{
-                animation-duration: 3s;
-                animation-iteration-count: 1;
-                animation-timing-function: ease-in-out;
+            .wrapper {
+                .meli-1{
+                    animation-name: wrapper-1;
+                }
+                .meli-2{
+                    animation-name: wrapper-2;
+                }
             }
-        }
-        .wrapper {
-            .meli-1{
-                animation-name: wrapper-1;
-            }
-            .meli-2{
-                animation-name: wrapper-2;
+
+            .contenedor-innovacion {
+                padding: 0px 40px;
+                div{
+                    margin: 50px 0px;
+                    div{
+                      margin: 0px 20px;
+                    }
+                  }
+                .contenido-innovacion-in{
+                  .texto-innovacion-in{
+                    display: block;
+                  }
+                }
+          
+                .contenido-innovacion-no{
+                  .texto-innovacion-no{
+                    display: block;
+                  }
+                }
+                .contenido-innovacion-va{
+                  .texto-innovacion-va{
+                    display: block;
+                  }
+                }
+                .contenido-innovacion-cion{
+                  .texto-innovacion-cion{
+                    display: block;
+                  }
+                }
             }
         }
     }
+
 
         .diseno-1-1{
             max-width: none;

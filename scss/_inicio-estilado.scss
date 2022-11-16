@@ -1,53 +1,236 @@
-.seccion-principal {
-    background-color: rgb(0, 0, 0);
-    height: 100%;
-    width: 100%;
-  
-    .wrapper {
-      padding: 50px 0px 0px 0px;
-      display: grid;
-      place-content: center;
-      background-color: BLACK;
-      font-family: 'Oswald', sans-serif;
-      font-size: 130px;
-      color: rgb(193, 193, 193);
-  
-      div {
-        grid-area: 1/1/-1/-1;
+.texto-innovacion{
+  z-index: auto;
+  color: white;
+  font-size: $text-titulo;
+  font-weight: 300;
+  text-align: center;
+  max-width: 200px;
+}
+
+.contenido-principal {
+  margin: 50px 0px 0px 0px;
+  background-color: #dfdfdf;
+
+  .seccion-principal {
+    font-family: $letra;
+      background-color: rgb(0, 0, 0);
+      height: 100%;
+      width: 100%;
+    
+      .wrapper {
+        padding: 50px 0px 0px 0px;
+        display: grid;
+        place-content: center;
+        background-color: BLACK;
+        font-family: 'Oswald', sans-serif;
+        font-size: 130px;
+        color: rgb(193, 193, 193);
+    
+        div {
+          grid-area: 1/1/-1/-1;
+        }
+        .meli-1 {
+          clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+        }
+        .bottom {
+          clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+          color: transparent;
+          background: -webkit-linear-gradient(177deg, black 53%, WHITE 65%);
+          background: linear-gradient(177deg, black 53%, rgb(49, 49, 49) 65%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          transform: translateX(-5px);
+        }
       }
-      .meli-1 {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+    
+    .contenedor-innovacion {
+      padding: 0px 0px;
+      @include flex-c;
+      justify-items: center;
+      align-content: space-around;
+      align-items: center;
+
+      div{
+        margin: 50px 0px;
+        width: 100%;
+        div{
+          margin: 0px 20px;
+        }
       }
-      .bottom {
-        clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
-        color: transparent;
-        background: -webkit-linear-gradient(177deg, black 53%, WHITE 65%);
-        background: linear-gradient(177deg, black 53%, rgb(49, 49, 49) 65%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        transform: translateX(-5px);
+
+      .contenido-innovacion-in{
+
+        @include flex-r;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        
+        @import "innovacion/_in";
+
+        .texto-innovacion-in{
+          display: none;
+          @extend .texto-innovacion;
+        }
+      }
+
+      .contenido-innovacion-no{
+        @include flex-r;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+
+        @import "innovacion/_no";
+
+        .texto-innovacion-no{
+          display: none;
+          @extend .texto-innovacion;
+        }
+      }
+
+      .contenido-innovacion-va{
+        @include flex-r;
+
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+
+        @import "innovacion/_va";
+
+        .texto-innovacion-va{
+          display: none;
+          @extend .texto-innovacion;
+        }
+      }
+
+      .contenido-innovacion-cion{
+        @include flex-r;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+
+        @import "innovacion/_cion";
+
+        .texto-innovacion-cion{
+          display: none;
+          @extend .texto-innovacion;
+        }
       }
     }
-}
+  }
+
+  .seccion-principal-2 {
+      background-color: #dfdfdf;
+
+    .contenido-seccion-disenos{
+      width: 100%;
+      display: grid;
+      grid-template-areas: 
+        "d1 d1 d1 d1"
+        "d2 d2 d2 d2"
+        "d3 d3 d3 d3"
+        "d4 d4 d4 d4"
+      ;
+
+      grid-template-rows: 1fr 1fr;
+
+      div{
+        margin: 10px 0px;
+        font-family: $letra;
+
+        h3{
+          padding: 10px;
+          margin: 0;
+          font-size: $text-titulo-g;
+          text-align: center;
+        }
+        p{
+          font-weight: 300;
+          font-size: $text-titulo;
+          text-align: center;
+          margin-top: 0;
+        }
+      }
+
+      .diseno-1-1 {
+        grid-area: d1;
+        background-color: rgb(255, 255, 255);
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
 
 
-  
+        .link-saber-mas{
+          text-decoration: none;
+          color: $col-link;
+          font-size: $text-general;
+          @include transiciones (0.1s)
+        }
 
-  .contenido-innovacion {
-    display: grid;
-    grid-row-gap: 0px;
-    grid-column-gap: 0px;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-    
-    .innovacion-item{
-      margin: 50px 0px;
+        .contenedor-melphones{
+          @include flex-r;
+          justify-content: space-around;
+
+          .diseno-melphone {
+            width: 70px;
+          }
+        .diseno-melphone-negro{
+            z-index: 3;
+            transform: rotateZ(-2deg);
+          }
+          .diseno-melphone-verde{
+            z-index: 2;
+          }
+          .diseno-melphone-blanco{
+            z-index: 1;
+            transform: rotateZ(2deg);
+          }
+        }
+      }
+
+      .diseno-1-2 {
+        grid-area: d2;
+        background-color: black;
+        color:white;
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+
+        .diseno-melwatch {
+          margin-top: 50px;
+          width: 500px;
+        }
+      }
+      .diseno-2-1 {
+        grid-area: d3;
+        background-color: rgb(255, 255, 255);
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+
+        .diseno-melhome {
+          margin-top: 20px;
+          width: 500px;
+        }
+      }
+      .diseno-2-2 {
+        grid-area: d4;
+        background-color: black;
+        color:white;
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+
+        .diseno-mlbook {
+          margin-top: 20px;
+          width: 500px;
+        }
+      }
+    }
   }
 }
-
-@import "innovacion/_in";
-@import "innovacion/_no";
-@import "innovacion/_va";
-@import "innovacion/_cion";

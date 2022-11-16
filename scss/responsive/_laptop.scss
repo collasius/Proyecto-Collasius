@@ -17,6 +17,22 @@
         }
     }
 
+    /*inicio*/
+
+    .contenido-principal {          
+        .seccion-principal-2 {
+          .contenido-seccion-disenos{
+            grid-template-areas: 
+              "d1 d1 d2 d2"
+              "d1 d1 d2 d2"
+              "d4 d4 d3 d3"
+              "d4 d4 d3 d3"
+            ;
+          }
+        }
+      }
+
+
     /* productos*/
 
     @import "../productos/productos-estilado-laptop";

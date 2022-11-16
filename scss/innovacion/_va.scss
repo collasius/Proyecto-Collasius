@@ -1,77 +1,59 @@
 .innovacion-va {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    @include flex-c;
     justify-content: center;
     align-items: center;
+    max-width: 340px;
     overflow: hidden;
-    width: 320px;
-    height: 420px;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-}
-
-.innovacion-va{
-    animation-name: va-innovacion-op;
-}
-
-.va-innovacion {
-    z-index: 4;
     position: relative;
-    height: 500px;
-    width: 500px;
-    object-fit: cover;
+    @include animaciones (3s,1,ease-in-out,va-innovacion-op);
+
+    .fondo-animado-va {
+        position: absolute;
+        z-index: 1;
+        object-fit:cover;
+        width:50%;
+        height:50%;
+        border-radius: 50%;
+        @include fondo-innovacion;
+        @include animaciones (3s,1,ease-in-out,fondo-va);
+    }
+
+    .blur-animado-va {
+        height: 300px;
+        width: 100px;
+        border-radius: 10%;
+        z-index: 3;
+        position: absolute;
+        backdrop-filter: blur(5px)saturate(120%);
+        -webkit-backdrop-filter: blur(5px)saturate(120%);
+            @include animaciones (3s,1,ease-in-out,movimiento-blur-va);
+    }
+
+    .degradez-va {
+        z-index: 5;
+        position: absolute;
+        object-fit:cover;
+        object-position: bottom;
+        width:100%;
+        height:100%;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    }
+
+    .va-innovacion {
+        z-index: 4;
+        position: relative;
+        height: 120%;
+        width: 120%;
+    }
+
+    .texto-va{
+        position: absolute;
+        z-index: 2;
+        font-weight: 800;
+        font-size: 150px;
+        filter: opacity(50%);
+    }
+    
 }
 
-.fondo-animado-va {
-    position: absolute;
-    z-index: 1;
-    width: 280px;
-    height: 290px;
-    border-radius: 50%;
-    background: rgb(172,0,144);
-    background: linear-gradient(14deg, rgba(172,0,144,1) 0%, rgba(47,33,184,1) 46%, rgba(3,208,194,1) 85%, rgba(0,254,31,1) 100%);
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-}
-.fondo-animado-va{
-    animation-name: fondo-va;
-}
-
-.blur-animado-va {
-    height: 300px;
-    width: 100px;
-    border-radius: 10%;
-    z-index: 3;
-    position: absolute;
-    backdrop-filter: blur(5px)saturate(120%);
-    -webkit-backdrop-filter: blur(5px)saturate(120%);
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-}
-
-.blur-animado-va{
-    animation-name: movimiento-blur-va;
-}
-
-.texto-va{
-    position: absolute;
-    z-index: 2;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    font-size: 180px;
-    filter: opacity(50%);
-}
-
-.degradez-va {
-    z-index: 5;
-    position: absolute;
-    height: 200px;
-    width: 320px;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
-    transform: translateY(115px);
-}

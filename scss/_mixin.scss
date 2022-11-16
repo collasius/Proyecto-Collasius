@@ -83,3 +83,8 @@
     background: rgb(182,104,185);
     background: radial-gradient(circle, rgba(182,104,185,1) 0%, rgba(154,76,156,1) 77%, rgba(116,0,88,1) 100%);
 }
+
+@mixin fondo-innovacion {
+    background: rgb(172,0,144);
+    background: linear-gradient(14deg, rgba(172,0,144,1) 0%, rgba(47,33,184,1) 46%, rgba(3,208,194,1) 85%, rgba(0,254,31,1) 100%);
+}

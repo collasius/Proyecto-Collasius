@@ -7171,394 +7171,420 @@ main {
           margin: 10px 80px; }
 
 /* ESTILADO MAIN INICIO*/
+.texto-innovacion, .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .texto-innovacion-in, .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .texto-innovacion-no, .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .texto-innovacion-va, .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .texto-innovacion-cion {
+  z-index: auto;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 200px; }
+
 .contenido-principal {
   margin: 50px 0px 0px 0px;
   background-color: #dfdfdf; }
-
-.seccion-principal {
-  background-color: black;
-  height: 100%;
-  width: 100%; }
-  .seccion-principal .wrapper {
-    padding: 50px 0px 0px 0px;
-    display: grid;
-    place-content: center;
-    background-color: BLACK;
-    font-family: 'Oswald', sans-serif;
-    font-size: 130px;
-    color: #c1c1c1; }
-    .seccion-principal .wrapper div {
-      grid-area: 1/1/-1/-1; }
-    .seccion-principal .wrapper .meli-1 {
-      clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%); }
-    .seccion-principal .wrapper .bottom {
-      clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
-      color: transparent;
-      background: -webkit-linear-gradient(177deg, black 53%, WHITE 65%);
-      background: linear-gradient(177deg, black 53%, #313131 65%);
-      background-clip: text;
-      -webkit-background-clip: text;
-      transform: translateX(-5px); }
-
-.contenido-innovacion {
-  display: grid;
-  grid-row-gap: 0px;
-  grid-column-gap: 0px;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center; }
-  .contenido-innovacion .innovacion-item {
-    margin: 50px 0px; }
-
-.innovacion-in {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center; }
-  .innovacion-in .fondo-animado-in {
-    position: absolute;
-    z-index: 1;
-    width: 300px;
-    height: 290px;
-    border-radius: 40px 40px 0px 0px;
-    background: #ac0090;
-    background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; }
-  .innovacion-in .fondo-animado-in {
-    animation-name: fondo-in; }
-  .innovacion-in img {
-    z-index: 4;
-    position: relative;
-    height: 300px;
-    width: 320px; }
-  .innovacion-in .blur-animado-in {
-    height: 100px;
-    width: 300px;
-    border-radius: 10%;
-    z-index: 3;
-    position: absolute;
-    backdrop-filter: blur(5px) saturate(120%);
-    -webkit-backdrop-filter: blur(5px) saturate(120%);
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; }
-  .innovacion-in .blur-animado-in {
-    animation-name: movimiento-blur-in; }
-  .innovacion-in .texto-in {
-    position: absolute;
-    z-index: 2;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    font-size: 180px;
-    filter: opacity(50%); }
-  .innovacion-in .degradez {
-    z-index: 5;
-    position: absolute;
-    height: 200px;
-    width: 320px;
-    background: white;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%);
-    transform: translateY(50px); }
-
-.innovacion-no {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  transition-property: all;
-  transition-duration: 1s;
-  width: 320px;
-  overflow: hidden; }
-
-.img-no {
-  z-index: 3;
-  position: relative;
-  height: 400px;
-  width: 440px; }
-
-.contenedor-no {
-  position: absolute;
-  z-index: 5;
-  width: 320px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
-.no-seg {
-  height: 440px;
-  width: 480px;
-  transform: rotateZ(0deg);
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-timing-function: step-end;
-  animation-name: segundero; }
-
-.fondo-animado-no {
-  position: absolute;
-  z-index: 1;
-  width: 280px;
-  height: 280px;
-  border-radius: 40px 40px 40px 40px;
-  background: #ac0090;
-  background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.fondo-animado-no {
-  animation-name: fondo-no; }
-
-.blur-animado-no {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  z-index: 3;
-  position: absolute;
-  backdrop-filter: blur(5px) saturate(120%);
-  -webkit-backdrop-filter: blur(5px) saturate(120%);
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.blur-animado-no {
-  animation-name: movimiento-blur-no; }
-
-.texto-no {
-  position: absolute;
-  z-index: 2;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  font-size: 180px;
-  filter: opacity(50%); }
-
-.degradez-no {
-  z-index: 4;
-  position: absolute;
-  height: 200px;
-  width: 300px;
-  background: white;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%);
-  transform: translateY(100px); }
-
-.innovacion-va {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.innovacion-va {
-  animation-name: va-innovacion-op; }
-
-.va-innovacion {
-  z-index: 4;
-  position: relative;
-  height: 500px;
-  width: 500px;
-  object-fit: cover; }
-
-.fondo-animado-va {
-  position: absolute;
-  z-index: 1;
-  width: 280px;
-  height: 290px;
-  border-radius: 50%;
-  background: #ac0090;
-  background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.fondo-animado-va {
-  animation-name: fondo-va; }
-
-.blur-animado-va {
-  height: 300px;
-  width: 100px;
-  border-radius: 10%;
-  z-index: 3;
-  position: absolute;
-  backdrop-filter: blur(5px) saturate(120%);
-  -webkit-backdrop-filter: blur(5px) saturate(120%);
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.blur-animado-va {
-  animation-name: movimiento-blur-va; }
-
-.texto-va {
-  position: absolute;
-  z-index: 2;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  font-size: 180px;
-  filter: opacity(50%); }
-
-.degradez-va {
-  z-index: 5;
-  position: absolute;
-  height: 200px;
-  width: 320px;
-  background: white;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%);
-  transform: translateY(115px); }
-
-.innovacion-cion {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: center;
-  overflow: hidden;
-  width: 320px;
-  height: 420px; }
-
-.cion-innovacion {
-  width: 650px;
-  z-index: 5;
-  position: relative; }
-
-.fondo-animado-cion {
-  position: absolute;
-  z-index: 1;
-  width: 320px;
-  height: 210px;
-  border-radius: 0px;
-  transform: translateY(-80PX);
-  background: #ac0090;
-  background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.fondo-animado-cion {
-  animation-name: fondo-cion; }
-
-.blur-animado-cion {
-  height: 80px;
-  width: 320px;
-  border-radius: 0%;
-  z-index: 3;
-  position: absolute;
-  backdrop-filter: blur(5px) saturate(120%);
-  -webkit-backdrop-filter: blur(5px) saturate(120%);
-  transform: translateY(-80px);
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
-.blur-animado-cion {
-  animation-name: movimiento-blur-cion; }
-
-.contenedor-texto {
-  position: absolute;
-  z-index: 2;
-  width: 320px;
-  overflow: hidden;
-  transform: translateY(-50px); }
-
-.texto-cion {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  font-size: 180px;
-  filter: opacity(50%);
-  transform: translate(-50px, -30PX); }
-
-.degradez-cion {
-  z-index: 5;
-  position: absolute;
-  height: 200px;
-  width: 320px;
-  background: white;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%);
-  transform: translateY(80px); }
-
-.seccion-principal-2 {
-  background-color: #dfdfdf; }
-
-.contenedor-contenido-seccion-diseno {
-  margin: 10px 0px; }
-
-.diseno-1-1 {
-  background-color: white;
-  min-width: 320px;
-  height: 400px;
-  overflow: hidden;
-  text-align: center; }
-
-.link-saber-mas {
-  text-decoration: none;
-  color: #071c87;
-  font-size: 18px;
-  transition-property: all;
-  transition-duration: 0.1s; }
-
-.contenedor-melphones {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.diseno-melphone {
-  width: 70px; }
-
-.melphone-tablet {
-  display: none; }
-
-.diseno-melphone-negro {
-  z-index: 3;
-  transform: rotateZ(-2deg); }
-
-.diseno-melphone-verde {
-  z-index: 2; }
-
-.diseno-melphone-blanco {
-  z-index: 1;
-  transform: rotateZ(2deg); }
-
-.diseno-1-2 {
-  background-color: black;
-  color: white; }
-
-.diseno-2-1 {
-  background-color: white; }
-
-.diseno-2-2 {
-  background-color: black;
-  color: white; }
-
-.contenedor-contenido-seccion-diseno h3, .contenedor-contenido-seccion-diseno .h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  padding: 10px;
-  margin: 0;
-  font-size: 40px;
-  text-align: center; }
-
-.contenedor-contenido-seccion-diseno p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 0; }
-
-.diseno-imagen {
-  max-width: 200px;
-  margin: 10px 10px; }
+  .contenido-principal .seccion-principal {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    height: 100%;
+    width: 100%; }
+    .contenido-principal .seccion-principal .wrapper {
+      padding: 50px 0px 0px 0px;
+      display: grid;
+      place-content: center;
+      background-color: BLACK;
+      font-family: 'Oswald', sans-serif;
+      font-size: 130px;
+      color: #c1c1c1; }
+      .contenido-principal .seccion-principal .wrapper div {
+        grid-area: 1/1/-1/-1; }
+      .contenido-principal .seccion-principal .wrapper .meli-1 {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%); }
+      .contenido-principal .seccion-principal .wrapper .bottom {
+        clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+        color: transparent;
+        background: -webkit-linear-gradient(177deg, black 53%, WHITE 65%);
+        background: linear-gradient(177deg, black 53%, #313131 65%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        transform: translateX(-5px); }
+    .contenido-principal .seccion-principal .contenedor-innovacion {
+      padding: 0px 0px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-items: center;
+      align-content: space-around;
+      align-items: center; }
+      .contenido-principal .seccion-principal .contenedor-innovacion div {
+        margin: 50px 0px;
+        width: 100%; }
+        .contenido-principal .seccion-principal .contenedor-innovacion div div {
+          margin: 0px 20px; }
+      .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap; }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .innovacion-in {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: center;
+          max-width: 320px;
+          overflow: hidden;
+          position: relative; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .innovacion-in .fondo-animado-in {
+            position: absolute;
+            z-index: 1;
+            object-fit: cover;
+            bottom: 0;
+            width: 95%;
+            height: 95%;
+            border-radius: 40px 40px 0px 0px;
+            background: #ac0090;
+            background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: fondo-in; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .innovacion-in .innovacion-img {
+            z-index: 4;
+            position: relative;
+            height: 100%;
+            width: 100%; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .innovacion-in .blur-animado-in {
+            height: 100px;
+            width: 300px;
+            border-radius: 10%;
+            z-index: 3;
+            position: absolute;
+            backdrop-filter: blur(5px) saturate(120%);
+            -webkit-backdrop-filter: blur(5px) saturate(120%);
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: movimiento-blur-in; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .innovacion-in .texto-in {
+            position: absolute;
+            z-index: 2;
+            font-weight: 800;
+            font-size: 180px;
+            filter: opacity(50%); }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .innovacion-in .degradez {
+            z-index: 5;
+            position: absolute;
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            height: 100%;
+            background: white;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%); }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .texto-innovacion-in {
+          display: none; }
+      .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse; }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: center;
+          max-width: 420px;
+          overflow: hidden;
+          position: relative;
+          margin: 0; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .fondo-animado-no {
+            padding: 0;
+            position: absolute;
+            z-index: 1;
+            object-fit: cover;
+            width: 65%;
+            height: 65%;
+            border-radius: 40px 40px 40px 40px;
+            background: #ac0090;
+            background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: fondo-no;
+            transform: translateX(-5px); }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .blur-animado-no {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            z-index: 3;
+            position: absolute;
+            backdrop-filter: blur(5px) saturate(120%);
+            -webkit-backdrop-filter: blur(5px) saturate(120%);
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: movimiento-blur-no; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .degradez-no {
+            z-index: 5;
+            position: absolute;
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            height: 100%;
+            background: white;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%); }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .img-no {
+            z-index: 3;
+            position: relative;
+            height: 100%;
+            width: 100%; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .contenedor-no {
+            position: absolute;
+            z-index: 5;
+            width: 320px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+            .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .contenedor-no .no-seg {
+              padding: 30px;
+              max-height: 440px;
+              max-width: 480px;
+              transform: rotateZ(0deg);
+              animation-duration: 60s;
+              animation-iteration-count: infinite;
+              animation-timing-function: step-end;
+              animation-name: segundero; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .innovacion-no .texto-no {
+            position: absolute;
+            z-index: 2;
+            font-weight: 800;
+            font-size: 180px;
+            filter: opacity(50%); }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .texto-innovacion-no {
+          display: none; }
+      .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap; }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .innovacion-va {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: center;
+          max-width: 340px;
+          overflow: hidden;
+          position: relative;
+          animation-duration: 3s;
+          animation-iteration-count: 1;
+          animation-timing-function: ease-in-out;
+          animation-name: va-innovacion-op; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .innovacion-va .fondo-animado-va {
+            position: absolute;
+            z-index: 1;
+            object-fit: cover;
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            background: #ac0090;
+            background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: fondo-va; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .innovacion-va .blur-animado-va {
+            height: 300px;
+            width: 100px;
+            border-radius: 10%;
+            z-index: 3;
+            position: absolute;
+            backdrop-filter: blur(5px) saturate(120%);
+            -webkit-backdrop-filter: blur(5px) saturate(120%);
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: movimiento-blur-va; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .innovacion-va .degradez-va {
+            z-index: 5;
+            position: absolute;
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            height: 100%;
+            background: white;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%); }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .innovacion-va .va-innovacion {
+            z-index: 4;
+            position: relative;
+            height: 120%;
+            width: 120%; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .innovacion-va .texto-va {
+            position: absolute;
+            z-index: 2;
+            font-weight: 800;
+            font-size: 150px;
+            filter: opacity(50%); }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .texto-innovacion-va {
+          display: none; }
+      .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse; }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .innovacion-cion {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          position: relative;
+          max-width: 640px;
+          max-height: 370px; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .innovacion-cion .blur-animado-cion {
+            height: 80px;
+            width: 620px;
+            border-radius: 0%;
+            z-index: 3;
+            position: absolute;
+            backdrop-filter: blur(5px) saturate(120%);
+            -webkit-backdrop-filter: blur(5px) saturate(120%);
+            transform: translateY(-80px);
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: movimiento-blur-cion; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .innovacion-cion .fondo-animado-cion {
+            position: absolute;
+            z-index: 1;
+            object-fit: contain;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 0px;
+            background: #ac0090;
+            background: linear-gradient(14deg, #ac0090 0%, #2f21b8 46%, #03d0c2 85%, #00fe1f 100%);
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+            animation-name: fondo-cion; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .innovacion-cion .contenedor-texto {
+            position: absolute;
+            z-index: 2;
+            font-weight: 800;
+            font-size: 150px;
+            filter: opacity(50%);
+            transform: translateY(-50px); }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .innovacion-cion .cion-innovacion {
+            z-index: 4;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            bottom: 0; }
+          .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .innovacion-cion .degradez-cion {
+            z-index: 5;
+            position: absolute;
+            object-fit: cover;
+            bottom: 0;
+            width: 100%;
+            height: 60%;
+            background: white;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 100%); }
+        .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .texto-innovacion-cion {
+          display: none; }
+  .contenido-principal .seccion-principal-2 {
+    background-color: #dfdfdf; }
+    .contenido-principal .seccion-principal-2 .contenido-seccion-disenos {
+      width: 100%;
+      display: grid;
+      grid-template-areas: "d1 d1 d1 d1" "d2 d2 d2 d2" "d3 d3 d3 d3" "d4 d4 d4 d4";
+      grid-template-rows: 1fr 1fr; }
+      .contenido-principal .seccion-principal-2 .contenido-seccion-disenos div {
+        margin: 10px 0px;
+        font-family: "Roboto", sans-serif; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos div h3, .contenido-principal .seccion-principal-2 .contenido-seccion-disenos div .h3 {
+          padding: 10px;
+          margin: 0;
+          font-size: 30px;
+          text-align: center; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos div p {
+          font-weight: 300;
+          font-size: 20px;
+          text-align: center;
+          margin-top: 0; }
+      .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 {
+        grid-area: d1;
+        background-color: white;
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 .link-saber-mas {
+          text-decoration: none;
+          color: #5d87d0;
+          font-size: 16px;
+          transition-property: all;
+          transition-duration: 0.1s; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 .contenedor-melphones {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around; }
+          .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 .contenedor-melphones .diseno-melphone {
+            width: 70px; }
+          .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 .contenedor-melphones .diseno-melphone-negro {
+            z-index: 3;
+            transform: rotateZ(-2deg); }
+          .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 .contenedor-melphones .diseno-melphone-verde {
+            z-index: 2; }
+          .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-1 .contenedor-melphones .diseno-melphone-blanco {
+            z-index: 1;
+            transform: rotateZ(2deg); }
+      .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-2 {
+        grid-area: d2;
+        background-color: black;
+        color: white;
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-1-2 .diseno-melwatch {
+          margin-top: 50px;
+          width: 500px; }
+      .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-2-1 {
+        grid-area: d3;
+        background-color: white;
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-2-1 .diseno-melhome {
+          margin-top: 20px;
+          width: 500px; }
+      .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-2-2 {
+        grid-area: d4;
+        background-color: black;
+        color: white;
+        min-width: 320px;
+        height: 400px;
+        overflow: hidden;
+        text-align: center; }
+        .contenido-principal .seccion-principal-2 .contenido-seccion-disenos .diseno-2-2 .diseno-mlbook {
+          margin-top: 20px;
+          width: 500px; }
 
 .pie-pagina {
   background-color: #f7f7f7;
@@ -8264,22 +8290,36 @@ main {
           margin: 0;
           padding: 0; }
   /* inicio */
-  .seccion-principal .wrapper {
+  .contenido-principal .seccion-principal .wrapper {
     font-size: 200px;
     padding-top: 0px;
     overflow: hidden; }
-    .seccion-principal .wrapper .meli-1 {
+    .contenido-principal .seccion-principal .wrapper .meli-1 {
       animation-duration: 3s;
       animation-iteration-count: 1;
       animation-timing-function: ease-in-out; }
-    .seccion-principal .wrapper .meli-2 {
+    .contenido-principal .seccion-principal .wrapper .meli-2 {
       animation-duration: 3s;
       animation-iteration-count: 1;
       animation-timing-function: ease-in-out; }
-  .seccion-principal .wrapper .meli-1 {
+  .contenido-principal .seccion-principal .wrapper .meli-1 {
     animation-name: wrapper-1; }
-  .seccion-principal .wrapper .meli-2 {
+  .contenido-principal .seccion-principal .wrapper .meli-2 {
     animation-name: wrapper-2; }
+  .contenido-principal .seccion-principal .contenedor-innovacion {
+    padding: 0px 40px; }
+    .contenido-principal .seccion-principal .contenedor-innovacion div {
+      margin: 50px 0px; }
+      .contenido-principal .seccion-principal .contenedor-innovacion div div {
+        margin: 0px 20px; }
+    .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-in .texto-innovacion-in {
+      display: block; }
+    .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-no .texto-innovacion-no {
+      display: block; }
+    .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-va .texto-innovacion-va {
+      display: block; }
+    .contenido-principal .seccion-principal .contenedor-innovacion .contenido-innovacion-cion .texto-innovacion-cion {
+      display: block; }
   .diseno-1-1 {
     max-width: none; }
   .contenedor-melphones {
@@ -8425,6 +8465,9 @@ main {
       padding-left: 200px;
       line-height: 50px;
       margin: 0; }
+  /*inicio*/
+  .contenido-principal .seccion-principal-2 .contenido-seccion-disenos {
+    grid-template-areas: "d1 d1 d2 d2" "d1 d1 d2 d2" "d4 d4 d3 d3" "d4 d4 d3 d3"; }
   /* productos*/
   .titulo-producto-rl, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos h3, .contenido-principal-productos .contenedor-melphone-colores .melphone-productos .h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos h3, .contenido-principal-productos .contenedor-mlbook-colores .mlbook-productos .h3, .contenido-principal-productos .contenedor-melwatch-colores h3, .contenido-principal-productos .contenedor-melwatch-colores .h3 {
     font-size: 100px;
