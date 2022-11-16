@@ -16,6 +16,30 @@
     text-decoration:underline;
 }
 
+.contenido-principal {
+    .seccion-principal-2{
+        .diseno-1-1{
+            .link-lo-quiero-a:hover{
+                color:$col-link-hover;
+                text-decoration: underline;
+            }
+        }
+        .diseno-1-2{
+            .link-lo-quiero-n-a:hover{
+                color:$col-link-hover-c;
+                text-decoration: underline;
+            }
+        }
+        .diseno-2-2{
+            .link-lo-quiero-n-b:hover{
+                color:$col-link-hover-c;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
 // producto
 
 .boton:hover{

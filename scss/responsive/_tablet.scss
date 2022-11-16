@@ -77,53 +77,54 @@
                     }
                   }
                 .contenido-innovacion-in{
-                  .texto-innovacion-in{
-                    display: block;
-                  }
+                    .innovacion-in{
+                        z-index: 2;
+                        @include animaciones (2s , 1 ,ease-in-out, animacion-innovacion-l);
+                    }  
+                    .texto-innovacion-in{
+                        z-index: auto;
+                        display: block;
+                        @include animaciones (3s , 1 ,ease-in-out, animacion-innovacion-texto-r);
+                    }
                 }
           
                 .contenido-innovacion-no{
-                  .texto-innovacion-no{
-                    display: block;
-                  }
+                    .innovacion-no{
+                        z-index: 2;
+                        @include animaciones (3s , 1 ,ease-in-out, animacion-innovacion-r);
+                    }  
+                    .texto-innovacion-no{
+                        z-index: auto;
+                        display: block;
+                        @include animaciones (4s , 1 ,ease-in-out, animacion-innovacion-texto-l);
+                    }
                 }
                 .contenido-innovacion-va{
-                  .texto-innovacion-va{
-                    display: block;
-                  }
+                    .innovacion-va{
+                        z-index: 2;
+                        @include animaciones (4s , 1 ,ease-in-out, animacion-innovacion-l);
+                    }  
+                    .texto-innovacion-va{
+                        z-index: auto;
+                        display: block;
+                        @include animaciones (5s , 1 ,ease-in-out, animacion-innovacion-texto-r);
+                    }
                 }
                 .contenido-innovacion-cion{
-                  .texto-innovacion-cion{
-                    display: block;
-                  }
+                    .innovacion-cion{
+                        z-index: 2;
+                        @include animaciones (5s , 1 ,ease-in-out, animacion-innovacion-r);
+                    }  
+                    .texto-innovacion-cion{
+                        z-index: auto;
+                        display: block;
+                        @include animaciones (6s , 1 ,ease-in-out, animacion-innovacion-texto-l);
+                    }
                 }
             }
         }
     }
 
-
-        .diseno-1-1{
-            max-width: none;
-        }
-        .contenedor-melphones{
-            width: auto;
-        }
-        .diseno-melphone{
-            width: 60px;
-        }
-        .melphone-tablet{
-            display: block;
-            padding-top: 40px;
-            width: 150px;
-            height: 240px;
-        }
-        .diseno-melphone-negro{
-            transform: none;
-        }
-        .diseno-melphone-blanco{
-            transform: none;
-        }
-    
     /* productos*/
 
     @import "../productos/productos-estilado-tablet";

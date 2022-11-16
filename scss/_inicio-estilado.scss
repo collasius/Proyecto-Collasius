@@ -7,6 +7,12 @@
   max-width: 200px;
 }
 
+.link-lo-quiero{
+  @include transiciones (0.1s);
+  margin: 0px 5px;
+  text-decoration: none;
+}
+
 .contenido-principal {
   margin: 50px 0px 0px 0px;
   background-color: #dfdfdf;
@@ -136,7 +142,7 @@
       grid-template-rows: 1fr 1fr;
 
       div{
-        margin: 10px 0px;
+        margin-top: 10px;
         font-family: $letra;
 
         h3{
@@ -161,13 +167,11 @@
         overflow: hidden;
         text-align: center;
 
-
-        .link-saber-mas{
-          text-decoration: none;
+        .link-lo-quiero-a{
+          @extend .link-lo-quiero;
           color: $col-link;
-          font-size: $text-general;
-          @include transiciones (0.1s)
         }
+
 
         .contenedor-melphones{
           @include flex-r;
@@ -203,6 +207,11 @@
           margin-top: 50px;
           width: 500px;
         }
+
+        .link-lo-quiero-n-a{
+          @extend .link-lo-quiero;
+          color: $col-link-c;
+        }
       }
       .diseno-2-1 {
         grid-area: d3;
@@ -225,6 +234,11 @@
         height: 400px;
         overflow: hidden;
         text-align: center;
+
+        .link-lo-quiero-n-b{
+          @extend .link-lo-quiero;
+          color: $col-link-c;
+        }
 
         .diseno-mlbook {
           margin-top: 20px;

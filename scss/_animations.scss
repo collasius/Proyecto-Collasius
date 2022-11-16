@@ -132,3 +132,47 @@
       transform: translate3d(0, 0, 0);
     }
   }
+
+  @keyframes animacion-innovacion-l {
+    0% {
+      transform: translateX(70%);
+    }
+  
+    100% {
+        transform: translateX(0%);
+    }
+  }
+  @keyframes animacion-innovacion-r {
+    0% {
+      transform: translateX(-30%);
+    }
+  
+    100% {
+        transform: translateX(0%);
+    }
+  }
+
+
+
+  @keyframes animacion-innovacion-texto-l {
+    0% {
+      transform: translateX(70%);
+      opacity: 0%;
+    }
+  
+    100% {
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+  }
+  @keyframes animacion-innovacion-texto-r {
+    0% {
+      transform: translateX(-70%);
+      opacity: 0%;
+    }
+  
+    100% {
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+  }
